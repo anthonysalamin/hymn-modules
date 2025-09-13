@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
-* HYMN | project subnav scroll v5.6
+* HYMN | initProjectSubnavScroll
 * @build 19.11.24 @updated 13.09.25 @23:55 PHT
 */
 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * HYMN | next img v1.1
+ * HYMN | initNextImg
  * @build 16.09.24 @updated 13.09.25 @23:59 PHT
  */
 
