@@ -8,6 +8,7 @@ import { initRouting } from 'https://hymn-design.netlify.app/js/initRouting.js?v
 import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
 import { initGradientOnScroll } from 'https://hymn-design.netlify.app/js/initGradientOnScroll.js?v=1.0.0';
 import { initLazyloadVimeo } from 'https://hymn-design.netlify.app/js/initLazyloadVimeo.js?v=1.0.0';
+import { initProjectSubnavScroll } from 'https://hymn-design.netlify.app/js/initProjectSubnavScroll.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
@@ -42,4 +43,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     initLazyloadVimeo();
     console.log("✅ initialized initLazyloadVimeo");
-  });
+});
+
+/**
+* HYMN | project subnav scroll v5.6
+* @build 19.11.24 @updated 13.09.25 @23:55 PHT
+*/
+
+document.addEventListener("DOMContentLoaded", () => {
+    initProjectSubnavScroll();
+    console.log("✅ initialized initProjectSubnavScroll");
+});
