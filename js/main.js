@@ -15,6 +15,7 @@ import { initHeaderImgScaleScrub } from 'https://hymn-design.netlify.app/js/init
 import { initMailtoNewTab } from 'https://hymn-design.netlify.app/js/initMailtoNewTab.js?v=1.0.0';
 import { initHeadlineDown } from 'https://hymn-design.netlify.app/js/initHeadlineDown.js?v=1.0.0';
 import { initTransitionOverlay } from 'https://hymn-design.netlify.app/js/initTransitionOverlay.js?v=1.0.0';
+import { initSeemoreCTALanguage } from 'https://hymn-design.netlify.app/js/initSeemoreCTALanguage.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
@@ -111,4 +112,13 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     initTransitionOverlay();
     console.log("✅ initialized initTransitionOverlay");
+});
+
+/**
+ * HYMN | initSeemoreCTALanguage
+ * @build 17.12.24 @updated 13.09.25 @23:59 PHT
+ */
+document.addEventListener("DOMContentLoaded", () => {
+    initSeemoreCTALanguage();
+    console.log("✅ initialized initSeemoreCTALanguage");
 });
