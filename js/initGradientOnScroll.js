@@ -1,14 +1,10 @@
 /**
  * HYMN | gradient on scroll v1
- * @build 13.09.25 @updated 23:14 PHT
+ * @build 13.09.25 @updated 23:36 PHT
  */
 
-const DEFAULT_OPTIONS = {
-    target: "[data-id='header-gradient']",
-};
-
-export function initGradientOnScroll(options = DEFAULT_OPTIONS) {
-    const { target } = options;
+export function initGradientOnScroll() {
+    const target = "[data-id='header-gradient']";
 
     // Check for gsap + ScrollTrigger
     if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") {
