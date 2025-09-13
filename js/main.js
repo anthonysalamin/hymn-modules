@@ -10,7 +10,8 @@ import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0
  * HYMN | initRouting
  * @build 02.10.21 @updated 23:32
 */
-initRouting(); 
+initRouting();
+console.log("✅ initialized initRouting");
 
 /**
  * HYMN | initASCII
