@@ -11,6 +11,7 @@ import { initLazyloadVimeo } from 'https://hymn-design.netlify.app/js/initLazylo
 import { initProjectSubnavScroll } from 'https://hymn-design.netlify.app/js/initProjectSubnavScroll.js?v=1.0.0';
 import { initNextImg } from 'https://hymn-design.netlify.app/js/initNextImg.js?v=1.0.0';
 import { initNextHover } from 'https://hymn-design.netlify.app/js/initNextHover.js?v=1.0.0';
+import { initHeaderImgScaleScrub } from 'https://hymn-design.netlify.app/js/initHeaderImgScaleScrub.js?v=1.0.0';
 
 
 /**
@@ -42,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
  * HYMN | initLazyloadVimeo
  * @build 04.11.24 @updated 13.09.25 @23:45 PHT
  */
-
 document.addEventListener("DOMContentLoaded", () => {
     initLazyloadVimeo();
     console.log("✅ initialized initLazyloadVimeo");
@@ -52,7 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
 * HYMN | initProjectSubnavScroll
 * @build 19.11.24 @updated 13.09.25 @23:55 PHT
 */
-
 document.addEventListener("DOMContentLoaded", () => {
     initProjectSubnavScroll();
     console.log("✅ initialized initProjectSubnavScroll");
@@ -62,7 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
  * HYMN | initNextImg
  * @build 16.09.24 @updated 13.09.25 @23:59 PHT
  */
-
 document.addEventListener("DOMContentLoaded", () => {
     initNextImg();
     console.log("✅ initialized initNextImg");
@@ -72,8 +70,16 @@ document.addEventListener("DOMContentLoaded", () => {
  * HYMN | initNextHover
  * @build 04.09.24 @updated 13.09.25 @23:59 PHT
  */
-
 document.addEventListener("DOMContentLoaded", () => {
     initNextHover();
     console.log("✅ initialized initNextHover");
 });
+
+/**
+ * HYMN | initHeaderImgScaleScrub
+ * @build 07.08.25 @updated 13.09.25 @23:59 PHT
+ */
+document.addEventListener("DOMContentLoaded", () => {
+    initHeaderImgScaleScrub();
+    console.log("✅ initialized initHeaderImgScaleScrub");
+  });
