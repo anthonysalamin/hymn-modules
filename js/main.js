@@ -7,6 +7,7 @@ console.log("🦄 deploying main modules");
 import { initRouting } from 'https://hymn-design.netlify.app/js/initRouting.js?v=1.0.0';
 import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
 import { initGradientOnScroll } from 'https://hymn-design.netlify.app/js/initGradientOnScroll.js?v=1.0.0';
+import { initLazyloadVimeo } from 'https://hymn-design.netlify.app/js/initLazyloadVimeo.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
@@ -32,3 +33,13 @@ document.addEventListener("DOMContentLoaded", () => {
     initGradientOnScroll();
     console.log("✅ initialized initGradientOnScroll");
 });
+
+/**
+ * HYMN | initLazyloadVimeo
+ * @build 04.11.24 @updated 13.09.25 @23:45 PHT
+ */
+
+document.addEventListener("DOMContentLoaded", () => {
+    initLazyloadVimeo();
+    console.log("✅ initialized initLazyloadVimeo");
+  });
