@@ -8,7 +8,7 @@ export function initRouting() {
 
     // Check if user already picked a language manually
     const storedLang = localStorage.getItem(USER_LANG_KEY);
-    console.log(storedLang);
+    // console.log(storedLang);
 
     // If they picked, do nothing (respect choice)
     if (storedLang) return;
