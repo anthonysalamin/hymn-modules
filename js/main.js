@@ -6,7 +6,7 @@ console.log("🦄 deploying main modules");
 
 import { initRouting } from 'https://hymn-design.netlify.app/js/initRouting.js?v=1.0.0';
 import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
-import { initGradientOnScroll } from 'https://hymn-design.netlify.app/js/gradientOnScroll.js?v=1.0.0';
+import { initGradientOnScroll } from 'https://hymn-design.netlify.app/js/initGradientOnScroll.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
