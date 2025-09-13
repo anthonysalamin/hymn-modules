@@ -9,6 +9,8 @@ import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0
 import { initGradientOnScroll } from 'https://hymn-design.netlify.app/js/initGradientOnScroll.js?v=1.0.0';
 import { initLazyloadVimeo } from 'https://hymn-design.netlify.app/js/initLazyloadVimeo.js?v=1.0.0';
 import { initProjectSubnavScroll } from 'https://hymn-design.netlify.app/js/initProjectSubnavScroll.js?v=1.0.0';
+import { initNextImg } from 'https://hymn-design.netlify.app/js/initNextImg.js?v=1.0.0';
+
 
 /**
  * HYMN | initRouting
@@ -53,4 +55,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     initProjectSubnavScroll();
     console.log("✅ initialized initProjectSubnavScroll");
+});
+
+/**
+ * HYMN | next img v1.1
+ * @build 16.09.24 @updated 13.09.25 @23:59 PHT
+ */
+
+document.addEventListener("DOMContentLoaded", () => {
+    initNextImg();
+    console.log("✅ initialized initNextImg");
 });
