@@ -13,7 +13,7 @@ import { initNextImg } from 'https://hymn-design.netlify.app/js/initNextImg.js?v
 import { initNextHover } from 'https://hymn-design.netlify.app/js/initNextHover.js?v=1.0.0';
 import { initHeaderImgScaleScrub } from 'https://hymn-design.netlify.app/js/initHeaderImgScaleScrub.js?v=1.0.0';
 import { initMailtoNewTab } from 'https://hymn-design.netlify.app/js/initMailtoNewTab.js?v=1.0.0';
-
+import { initHeadlineDown } from 'https://hymn-design.netlify.app/js/initHeadlineDown.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
@@ -92,4 +92,13 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('DOMContentLoaded', () => {
     initMailtoNewTab();
     console.log('✅ initialized initMailtoNewTab');
+});
+
+/**
+ * HYMN | initHeadlineDown
+ * @build 18.09.24 @updated 13.09.25 @23:59 PHT
+ */
+document.addEventListener("DOMContentLoaded", () => {
+    initHeadlineDown();
+    console.log("✅ initialized initHeadlineDown");
 });
