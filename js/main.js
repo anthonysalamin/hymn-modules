@@ -30,4 +30,5 @@ document.addEventListener("DOMContentLoaded", () => {
  */
 document.addEventListener("DOMContentLoaded", () => {
     initGradientOnScroll();
+    console.log("✅ initialized initGradientOnScroll");
 });
