@@ -12,6 +12,7 @@ import { initProjectSubnavScroll } from 'https://hymn-design.netlify.app/js/init
 import { initNextImg } from 'https://hymn-design.netlify.app/js/initNextImg.js?v=1.0.0';
 import { initNextHover } from 'https://hymn-design.netlify.app/js/initNextHover.js?v=1.0.0';
 import { initHeaderImgScaleScrub } from 'https://hymn-design.netlify.app/js/initHeaderImgScaleScrub.js?v=1.0.0';
+import { initMailtoNewTab } from 'https://hymn-design.netlify.app/js/initMailtoNewTab.js?v=1.0.0';
 
 
 /**
@@ -82,4 +83,13 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     initHeaderImgScaleScrub();
     console.log("✅ initialized initHeaderImgScaleScrub");
-  });
+});
+
+/**
+ * UTILITY | initMailtoNewTab
+ * @build 07.08.25 @updated 13.09.25 @23:59 PHT
+ */
+document.addEventListener('DOMContentLoaded', () => {
+    initMailtoNewTab();
+    console.log('✅ initialized initMailtoNewTab');
+});
