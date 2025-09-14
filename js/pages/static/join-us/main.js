@@ -4,11 +4,11 @@
 */
 console.log("🦄 deploying join-us modules");
 
-import { initLottie } from 'https://hymn-design.netlify.app/js/pages/static/join-us/initLottie.js?v=1.0.0';
+import { initStickyListAnchor } from 'https://hymn-design.netlify.app/js/pages/static/join-us/initStickyListAnchor.js?v=1.0.0';
 
 /**
- * HYMN | join-us
+ * HYMN | initStickyListAnchor
  * @build 01.12.24 @updated 13:02
  */
-join-us();
-console.log("✅ initialized join-us");
+initStickyListAnchor();
+console.log("✅ initialized initStickyListAnchor");
