@@ -5,6 +5,7 @@
 console.log("🦄 deploying main modules");
 
 import { initRouting } from 'https://hymn-design.netlify.app/js/initRouting.js?v=1.0.0';
+import { initSmoothScroll } from 'https://hymn-design.netlify.app/js/initSmoothScroll.js?v=1.0.0';
 import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
 import { initGradientOnScroll } from 'https://hymn-design.netlify.app/js/initGradientOnScroll.js?v=1.0.0';
 import { initLazyloadVimeo } from 'https://hymn-design.netlify.app/js/initLazyloadVimeo.js?v=1.0.0';
@@ -27,6 +28,13 @@ import { initLanguageSwitcher } from 'https://hymn-design.netlify.app/js/initLan
 */
 initRouting();
 console.log("✅ initialized initRouting");
+
+/**
+ * HYMN | initSmoothScroll
+ * @build 02.10.21 @updated 23:32
+*/
+initSmoothScroll();
+console.log("✅ initialized initSmoothScroll");
 
 /**
  * HYMN | initASCII
@@ -158,7 +166,6 @@ document.addEventListener("DOMContentLoaded", () => {
  * HYMN | initLanguageSwitcher
  * @build 31.08.25 @updated 14.09.25 @01:05 PHT
  */
-
 document.addEventListener("DOMContentLoaded", () => {
     initLanguageSwitcher();
     console.log("✅ initialized initLanguageSwitcher");
