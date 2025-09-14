@@ -150,5 +150,5 @@ document.addEventListener("DOMContentLoaded", () => {
  */
 document.addEventListener("DOMContentLoaded", () => {
     initSafariIframeGuard();
-    console.log("✅ initialized initSafariIframeGuard");
+    console.log("✅ 🔴initialized initSafariIframeGuard");
 });
