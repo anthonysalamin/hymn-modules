@@ -77,8 +77,6 @@ export function initSmoothScroll() {
         }
     }
 
-    // auto-init on load
-    window.addEventListener("load", () => {
-        new SmoothScrollManager();
-    });
+    // Initialize immediately instead of waiting for window.load
+    new SmoothScrollManager();
 }

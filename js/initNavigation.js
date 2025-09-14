@@ -3,7 +3,15 @@
  * @build 14.08.25 @updated 14.09.25 @23:40 PHT
  */
 export function initNavigation() {
-    window.addEventListener("load", () => {
+    // Changed from window.load to DOMContentLoaded for faster init
+    if (document.readyState === 'loading') {
+        document.addEventListener("DOMContentLoaded", initNavSystem);
+    } else {
+        // DOM is already loaded, init immediately
+        initNavSystem();
+    }
+
+    function initNavSystem() {
         if (!window.smoothScrollManager) {
             console.error("SmoothScrollManager not found - waiting for initialization");
 
@@ -26,7 +34,7 @@ export function initNavigation() {
             console.log("✅ Lenis ready:", lenis);
             navigationModule(lenis);
         });
-    });
+    }
 
     function navigationModule(lenis__pageScroll) {
         // --------------------------------------------
