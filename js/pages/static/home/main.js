@@ -11,3 +11,4 @@ import { initLottie } from 'https://hymn-design.netlify.app/js/pages/static/home
  * @build 01.12.24 @updated 13:02
  */
 initLottie();
+console.log("✅ initialized initLottie");
