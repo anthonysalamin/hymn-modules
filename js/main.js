@@ -6,7 +6,8 @@ console.log("🦄 deploying main modules");
 
 import { initRouting } from 'https://hymn-design.netlify.app/js/initRouting.js?v=1.0.0';
 import { initSmoothScroll } from 'https://hymn-design.netlify.app/js/initSmoothScroll.js?v=1.0.0';
-import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
+import { initNavigation } from 'https://hymn-design.netlify.app/js/initNavigation.js?v=1.0.0';
+import { initLanguageSwitcher } from 'https://hymn-design.netlify.app/js/initLanguageSwitcher.js?v=1.0.0';
 import { initGradientOnScroll } from 'https://hymn-design.netlify.app/js/initGradientOnScroll.js?v=1.0.0';
 import { initLazyloadVimeo } from 'https://hymn-design.netlify.app/js/initLazyloadVimeo.js?v=1.0.0';
 import { initProjectSubnavScroll } from 'https://hymn-design.netlify.app/js/initProjectSubnavScroll.js?v=1.0.0';
@@ -20,7 +21,7 @@ import { initSeemoreCTALanguage } from 'https://hymn-design.netlify.app/js/initS
 import { initServices } from 'https://hymn-design.netlify.app/js/initServices.js?v=1.0.0';
 import { initNavLogoShrink } from 'https://hymn-design.netlify.app/js/initNavLogoShrink.js?v=1.0.0';
 import { initSafariIframeGuard } from 'https://hymn-design.netlify.app/js/initSafariIframeGuard.js?v=1.0.0';
-import { initLanguageSwitcher } from 'https://hymn-design.netlify.app/js/initLanguageSwitcher.js?v=1.0.0';
+import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
@@ -35,6 +36,13 @@ console.log("✅ initialized initRouting");
 */
 initSmoothScroll();
 console.log("✅ initialized initSmoothScroll");
+
+/**
+ * HYMN | initNavigation
+ * @build 02.10.21 @updated 23:32
+*/
+initNavigation();
+console.log("✅ initialized initNavigation");
 
 /**
  * HYMN | initASCII
