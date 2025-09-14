@@ -19,6 +19,7 @@ import { initSeemoreCTALanguage } from 'https://hymn-design.netlify.app/js/initS
 import { initServices } from 'https://hymn-design.netlify.app/js/initServices.js?v=1.0.0';
 import { initNavLogoShrink } from 'https://hymn-design.netlify.app/js/initNavLogoShrink.js?v=1.0.0';
 import { initSafariIframeGuard } from 'https://hymn-design.netlify.app/js/initSafariIframeGuard.js?v=1.0.0';
+import { initLanguageSwitcher } from 'https://hymn-design.netlify.app/js/initLanguageSwitcher.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
@@ -151,4 +152,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     initSafariIframeGuard();
     console.log("✅ initialized initSafariIframeGuard");
+});
+
+/**
+ * HYMN | initLanguageSwitcher
+ * @build 31.08.25 @updated 14.09.25 @01:05 PHT
+ */
+
+document.addEventListener("DOMContentLoaded", () => {
+    initLanguageSwitcher();
+    console.log("✅ initialized initLanguageSwitcher");
 });
