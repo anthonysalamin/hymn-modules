@@ -3,7 +3,7 @@
  * @build 14.08.25 @updated 14.09.25 @23:40 PHT
  */
 export function initNavigation() {
-    document.addEventListener("DOMContentLoaded", () => {
+    window.addEventListener("load", () => {
         if (!window.smoothScrollManager) {
             console.error("SmoothScrollManager not found - waiting for initialization");
 
