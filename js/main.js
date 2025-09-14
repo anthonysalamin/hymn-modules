@@ -18,6 +18,7 @@ import { initTransitionOverlay } from 'https://hymn-design.netlify.app/js/initTr
 import { initSeemoreCTALanguage } from 'https://hymn-design.netlify.app/js/initSeemoreCTALanguage.js?v=1.0.0';
 import { initServices } from 'https://hymn-design.netlify.app/js/initServices.js?v=1.0.0';
 import { initNavLogoShrink } from 'https://hymn-design.netlify.app/js/initNavLogoShrink.js?v=1.0.0';
+import { initSafariIframeGuard } from 'https://hymn-design.netlify.app/js/initSafariIframeGuard.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
@@ -141,4 +142,13 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     initNavLogoShrink();
     console.log("✅ initialized initNavLogoShrink");
+});
+
+/**
+ * 🥭 UTILITY | initSafariIframeGuard
+ * @build 15.08.25 @updated 14.09.25 @00:50 PHT
+ */
+document.addEventListener("DOMContentLoaded", () => {
+    initSafariIframeGuard();
+    console.log("✅ initialized initSafariIframeGuard");
 });
