@@ -17,6 +17,7 @@ import { initHeadlineDown } from 'https://hymn-design.netlify.app/js/initHeadlin
 import { initTransitionOverlay } from 'https://hymn-design.netlify.app/js/initTransitionOverlay.js?v=1.0.0';
 import { initSeemoreCTALanguage } from 'https://hymn-design.netlify.app/js/initSeemoreCTALanguage.js?v=1.0.0';
 import { initServices } from 'https://hymn-design.netlify.app/js/initServices.js?v=1.0.0';
+import { initNavLogoShrink } from 'https://hymn-design.netlify.app/js/initNavLogoShrink.js?v=1.0.0';
 
 /**
  * HYMN | initRouting
@@ -128,8 +129,16 @@ document.addEventListener("DOMContentLoaded", () => {
  * HYMN | initServices
  * @build 18.09.24 @updated 14.09.25 @00:08 PHT
  */
-
 document.addEventListener("DOMContentLoaded", () => {
     initServices();
     console.log("✅ initialized initServices");
+});
+
+/**
+ * HYMN | initNavLogoShrink
+ * @build 10.09.24 @updated 14.09.25 @00:42 PHT
+ */
+document.addEventListener("DOMContentLoaded", () => {
+    initNavLogoShrink();
+    console.log("✅ initialized initNavLogoShrink");
 });
