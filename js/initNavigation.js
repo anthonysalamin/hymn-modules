@@ -1,10 +1,9 @@
 /**
  * HYMN | initNavigation
- * @build 14.08.25 @updated 14.09.25 @23:11 PHT
+ * @build 14.08.25 @updated 14.09.25 @23:40 PHT
  */
 export function initNavigation() {
-    // Wait for SmoothScrollManager to be available
-    window.addEventListener("load", () => {
+    document.addEventListener("DOMContentLoaded", () => {
         if (!window.smoothScrollManager) {
             console.error("SmoothScrollManager not found - waiting for initialization");
 
