@@ -32,12 +32,12 @@ import { initSeemoreCTALanguage } from 'https://hymn-design.netlify.app/js/initS
 import { initSafariIframeGuard } from 'https://hymn-design.netlify.app/js/initSafariIframeGuard.js?v=1.0.0';
 import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
 
-// Initialize foundation modules
+// Foundation modules
 initRouting();
 initSmoothScroll();
 initNavigation();
 
-// Initialize DOM-dependent modules
+// DOM-dependent modules
 document.addEventListener("DOMContentLoaded", () => {
     // Basic utilities first
     initASCII();
