@@ -8,3 +8,4 @@ console.log("🦄 deploying politique-de-confidentialite modules");
 import { initGoBack } from 'https://hymn-design.netlify.app/js/pages/static/politique-de-confidentialite/initGoBack.js?v=1.0.0';
 
 initGoBack();
+console.log("✅ All page-specific modules initialized successfully");

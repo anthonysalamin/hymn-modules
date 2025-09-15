@@ -12,3 +12,4 @@ import { initMethodSwitch } from 'https://hymn-design.netlify.app/js/pages/stati
 initClientMarquee();
 initClickDrag();
 initMethodSwitch();
+console.log("✅ All page-specific modules initialized successfully");

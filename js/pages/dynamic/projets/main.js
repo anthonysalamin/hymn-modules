@@ -18,4 +18,5 @@ initLazyloadVimeo();
 
 document.addEventListener("DOMContentLoaded", () => {
     initListAnchor();
+    console.log("✅ All page-specific modules initialized successfully");
 });

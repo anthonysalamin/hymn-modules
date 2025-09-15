@@ -14,3 +14,4 @@ initRemoveEmptyVideos();
 initRemoveEmptyImages();
 initPortfolioVideos();
 initPackery();
+console.log("✅ All page-specific modules initialized successfully");
