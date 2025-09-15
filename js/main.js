@@ -1,5 +1,5 @@
 /**
- * HYMN | main nodules
+ * HYMN | main nodules.
  * @build 15.09.25 @updated 12:51 PHT
  * © 2025 TONYTONY Sàrl
  */
