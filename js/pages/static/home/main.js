@@ -4,7 +4,7 @@
 */
 
 console.log(
-    "%c🦄 deploying home modules",
+    "%c🦄 Deploying home modules",
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
   );
 
