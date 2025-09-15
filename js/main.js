@@ -1,7 +1,8 @@
 /**
- * HYMN | Main Module Loader
+ * HYMN | main nodules
  * @build 15.09.25 @updated 12:51 PHT
  * Initializes all site modules in proper dependency order
+ * © 2025 TONYTONY Sàrl
  */
 
 console.log(
@@ -9,7 +10,7 @@ console.log(
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
   );
 
-// Foundation modules - must load first
+// Foundation modules
 import { initRouting } from 'https://hymn-design.netlify.app/js/initRouting.js?v=1.0.0';
 import { initSmoothScroll } from 'https://hymn-design.netlify.app/js/initSmoothScroll.js?v=1.0.0';
 import { initNavigation } from 'https://hymn-design.netlify.app/js/initNavigation.js?v=1.0.0';
