@@ -1,6 +1,7 @@
 /**
  * UTILITY | initRemoveEmptyImages
  * @build 13.08.25 @updated 17:54 PHT
+ * It removes all invisible portfolio images from the DOM and refreshes Lenis page scroll once the DOM is loaded.
  */
 
 export function initRemoveEmptyImages() {

@@ -1,5 +1,5 @@
 /**
- * HYMN | lazyload vimeo v2.7.6.1
+ * HYMN | initLazyloadVimeo v2.7.6.1
  * @build 06.11.24 @updated 18:51 PHT
  * lazy-loads Vimeo videos with autoplay, cursor interaction, responsive wrappers, and status logging.
  */
