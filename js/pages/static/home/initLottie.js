@@ -16,7 +16,7 @@ export function initLottie() {
         };
 
         if (!LOTTIE_OPTIONS.CONTAINER) {
-            console.log("skipping HYMN lottie animation");
+            // console.log("skipping HYMN lottie animation");
             return;
         }
 
