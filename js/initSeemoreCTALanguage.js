@@ -20,5 +20,5 @@ export function initSeemoreCTALanguage() {
     }
 
     ctaEl.href = url;
-    console.log(ctaEl);
+    // console.log(ctaEl);
 }
