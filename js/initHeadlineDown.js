@@ -17,7 +17,7 @@ export function initHeadlineDown() {
     const triggerEl = document.querySelector(CONFIG.TRIGGER);
 
     if (!targetEl) {
-        console.log("skipping headline animation on scroll");
+        // console.log("skipping headline animation on scroll");
         return;
     }
 

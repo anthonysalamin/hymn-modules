@@ -15,7 +15,7 @@ export function initLazyloadVimeo() {
 
     // Skip if no matching element
     if (!document.querySelector(videoSelector)) {
-        console.log("skipping lazy loading video");
+        // console.log("skipping lazy loading video");
         return;
     }
 
@@ -24,8 +24,6 @@ export function initLazyloadVimeo() {
         const match = url.match(/playback\/(\d+)\//);
         return match ? match[1] : null;
     }
-
-    console.log("🎬 initLazyloadVimeo");
 
     const videos = document.querySelectorAll(videoSelector);
     videos.forEach((video) => {

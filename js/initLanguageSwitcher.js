@@ -24,12 +24,12 @@ export function initLanguageSwitcher() {
     const trigger = document.querySelector(OPTIONS.TRIGGER);
 
     if (!document.querySelector(OPTIONS.LOCALE_LIST)) {
-        console.log("⚠️ skipping language switcher");
+        // console.log("skipping language switcher");
         return;
     }
 
     if (!localeItems.length || !trigger) {
-        console.log("⚠️ language switcher elements missing");
+        // console.log("language switcher elements missing");
         return;
     }
 
@@ -48,7 +48,7 @@ export function initLanguageSwitcher() {
 
     // Click event listener for trigger
     trigger.addEventListener("click", () => {
-        console.log("🌐 language switch triggered");
+        // console.log("language switch triggered");
 
         const inactiveLanguage = document.querySelector(
             '[data-language="inactive"]'
@@ -74,14 +74,14 @@ export function initLanguageSwitcher() {
         const chosenLang =
             targetLink.getAttribute("href") || targetLink.textContent.trim();
         localStorage.setItem("preferredLanguage", chosenLang);
-        console.log("💾 Preferred language stored:", chosenLang);
+        // console.log("Preferred language stored:", chosenLang);
 
         // Redirect to selected language
         setTimeout(() => {
             if (OPTIONS.PRODUCTION) {
                 window.location.href = targetLink.href;
             }
-            console.log("🔀 language redirection");
+            // console.log("language redirection");
         }, OPTIONS.DELAY * 1000);
     });
 }

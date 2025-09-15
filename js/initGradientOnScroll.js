@@ -15,7 +15,7 @@ export function initGradientOnScroll() {
 
     const element = document.querySelector(target);
     if (!element) {
-        console.log("skipping gradient handling");
+        // console.log("skipping gradient handling");
         return;
     }
 

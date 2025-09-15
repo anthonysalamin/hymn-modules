@@ -21,7 +21,7 @@ export function initNavigation() {
             setTimeout(() => {
                 if (window.smoothScrollManager) {
                     window.smoothScrollManager.ready.then((lenis) => {
-                        console.log("✅ Lenis ready (delayed):", lenis);
+                        // console.log("✅ Lenis ready (delayed):", lenis);
                         navigationModule(lenis);
                     });
                 } else {
@@ -33,7 +33,7 @@ export function initNavigation() {
 
         // Wait for Lenis instance from SmoothScrollManager
         window.smoothScrollManager.ready.then((lenis) => {
-            console.log("✅ Lenis ready:", lenis);
+            // console.log("✅ Lenis ready:", lenis);
             navigationModule(lenis);
         });
     }
@@ -136,7 +136,7 @@ export function initNavigation() {
                 if (NAVIGATION_OPTIONS.UTILITY.NAV__WRAPPER) {
                     NAVIGATION_OPTIONS.UTILITY.NAV__WRAPPER.style.right = `${scrollbarWidth}px`;
                 }
-                console.log(`🔒 Scroll locked (offset ${scrollbarWidth}px)`);
+                // console.log(`Scroll locked (offset ${scrollbarWidth}px)`);
             } else {
                 lenis__pageScroll.start();
                 document.body.style.overflow = "";
@@ -144,7 +144,7 @@ export function initNavigation() {
                 if (NAVIGATION_OPTIONS.UTILITY.NAV__WRAPPER) {
                     NAVIGATION_OPTIONS.UTILITY.NAV__WRAPPER.style.right = "0px";
                 }
-                console.log("🔓 Scroll unlocked");
+                // console.log("Scroll unlocked");
             }
 
             isScrollLocked = shouldLock;

@@ -21,7 +21,7 @@ export function initHeaderImgScaleScrub() {
     function imgOnScroll() {
         const container = document.querySelector(config.ELEMENT.CONTAINER);
         if (!container) {
-            console.log("skipping header animation on scrub");
+            // console.log("skipping header animation on scrub");
             return;
         }
 
@@ -42,7 +42,7 @@ export function initHeaderImgScaleScrub() {
     function gradientOnScroll() {
         const gradient = document.querySelector(config.ELEMENT.GRADIENT);
         if (!gradient) {
-            console.log("skipping gradient animation on scrub");
+            // console.log("skipping gradient animation on scrub");
             return;
         }
 
@@ -62,7 +62,7 @@ export function initHeaderImgScaleScrub() {
     function videoOnScroll() {
         const video = document.querySelector(config.ELEMENT.VIDEO);
         if (!video) {
-            console.log("skipping video animation on scrub");
+            // console.log("skipping video animation on scrub");
             return;
         }
 
