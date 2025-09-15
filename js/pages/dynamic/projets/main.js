@@ -5,6 +5,7 @@
 console.log("🦄 deploying projets modules");
 
 import { initRemoveEmptyVideos } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initRemoveEmptyVideos.js?v=1.0.0';
+import { initRemoveEmptyImages } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initRemoveEmptyImages.js?v=1.0.0';
 
 /**
  * HYMN | initRemoveEmptyVideos
@@ -12,3 +13,10 @@ import { initRemoveEmptyVideos } from 'https://hymn-design.netlify.app/js/pages/
  */
 initRemoveEmptyVideos();
 console.log("✅ initialized initRemoveEmptyVideos");
+
+/**
+ * HYMN | initRemoveEmptyImages
+ * @build 01.12.24 @updated 13:02
+ */
+initRemoveEmptyImages();
+console.log("✅ initialized initRemoveEmptyImages");
