@@ -7,6 +7,7 @@ console.log("🦄 deploying studio-life-events modules");
 import { initRemoveEmptyVideos } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initRemoveEmptyVideos.js?v=1.0.0';
 import { initRemoveEmptyImages } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initRemoveEmptyImages.js?v=1.0.0';
 import { initPortfolioVideos } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initPortfolioVideos.js?v=1.0.0';
+import { initPackery } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initPackery.js?v=1.0.0';
 
 /**
  * UTILITY | remove empty videos
@@ -31,3 +32,11 @@ console.log("✅ initialized initRemoveEmptyImages");
  */
 initPortfolioVideos();
 console.log("✅ initialized initPortfolioVideos");
+
+/**
+ * HYMN | initPackery v4.1
+ * @build 15.08.25 @updated 11:27 PHT
+ * Initializes Packery grid layout and updates Lenis scroll after images load.
+ */
+initPackery();
+console.log("✅ initialized initPackery");
