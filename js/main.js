@@ -62,5 +62,5 @@ document.addEventListener("DOMContentLoaded", () => {
     initNextHover();
     initServices();
     
-    console.log("✅ main modules initialized successfully");
+    console.log("✅ All main modules initialized successfully");
 });
