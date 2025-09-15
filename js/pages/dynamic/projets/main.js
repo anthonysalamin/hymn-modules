@@ -7,6 +7,7 @@ console.log("🦄 deploying projets modules");
 import { initRemoveEmptyVideos } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initRemoveEmptyVideos.js?v=1.0.0';
 import { initRemoveEmptyImages } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initRemoveEmptyImages.js?v=1.0.0';
 import { initCtaTextIcon } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initCtaTextIcon.js?v=1.0.0';
+import { initLazyloadVimeo } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initLazyloadVimeo.js?v=1.0.0';
 import { initListAnchor } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initListAnchor.js?v=1.0.0';
 
 /**
@@ -32,6 +33,13 @@ console.log("✅ initialized initRemoveEmptyImages");
  */
 initCtaTextIcon();
 console.log("✅ initialized initCtaTextIcon");
+
+/**
+ * HYMN | initLazyloadVimeo v2.7.6.1
+ * @build 06.11.24 @updated 18:51 PHT
+ * lazy-loads Vimeo videos with autoplay, cursor interaction, responsive wrappers, and status logging.
+ */
+initLazyloadVimeo();
 
 /**
  * HYMN | initListAnchor
