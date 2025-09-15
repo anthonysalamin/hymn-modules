@@ -1,6 +1,7 @@
 /**
  * HYMN | initNavLogoShrink
- * @build 10.09.24 @updated 14.09.25 @00:42 PHT
+ * @build 10.09.24 @updated 00:42 PHT
+ * Mobile nav logo shrink/expand on scroll using GSAP ScrollTrigger, active only on screens ≤479px.
  */
 
 export function initNavLogoShrink() {

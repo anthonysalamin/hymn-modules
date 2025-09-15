@@ -1,6 +1,7 @@
 /**
  * HYMN | initLanguageSwitcher
- * @build 31.08.25 @updated 14.09.25 @01:05 PHT
+ * @build 31.08.25 @updated 01:05 PHT
+ * Enables a language switcher that toggles options, stores preference, and redirects on selection.
  */
 
 export function initLanguageSwitcher() {

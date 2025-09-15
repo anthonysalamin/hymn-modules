@@ -1,7 +1,9 @@
 /**
  * HYMN | initNavigation
- * @build 14.08.25 @updated 14.09.25 @23:40 PHT
+ * @build 14.08.25 @updated 23:40 PHT
+ * Navigation module for HYMN, handling menu open/close, scroll lock, overlays, and seemore parallax, fully integrated with Lenis and GSAP ScrollTrigger.
  */
+
 export function initNavigation() {
     // Changed from window.load to DOMContentLoaded for faster init
     if (document.readyState === 'loading') {

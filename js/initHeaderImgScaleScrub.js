@@ -1,6 +1,7 @@
 /**
  * HYMN | initHeaderImgScaleScrub
  * @build 07.08.25 @updated 13.09.25 @23:59 PHT
+ * Animates header image scaling, gradient height, and video opacity on scroll using GSAP.
  */
 
 export function initHeaderImgScaleScrub() {

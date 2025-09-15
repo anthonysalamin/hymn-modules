@@ -2,6 +2,7 @@
  * HYMN | modules
  * @build 13.09.25 @updated 21:42 PHT
 */
+
 console.log("🦄 deploying main modules");
 
 import { initRouting } from 'https://hymn-design.netlify.app/js/initRouting.js?v=1.0.0';
@@ -27,6 +28,7 @@ import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0
  * HYMN | initRouting
  * @build 02.10.21 @updated 23:32
 */
+
 initRouting();
 console.log("✅ initialized initRouting");
 
@@ -34,29 +36,36 @@ console.log("✅ initialized initRouting");
  * HYMN | initSmoothScroll
  * @build 02.10.21 @updated 23:32
 */
+
 initSmoothScroll();
 console.log("✅ initialized initSmoothScroll");
 
 /**
  * HYMN | initNavigation
- * @build 02.10.21 @updated 23:32
-*/
+ * @build 14.08.25 @updated 23:40 PHT
+ * Navigation module for HYMN, handling menu open/close, scroll lock, overlays, and seemore parallax, fully integrated with Lenis and GSAP ScrollTrigger.
+ */
+
 initNavigation();
 console.log("✅ initialized initNavigation");
 
 /**
- * HYMN | initASCII
+ * UTILITY | initASCII v1.0.0
  * @build 02.10.21 @updated 23:32
-*/
+ * Inserts a decorative ASCII art comment into the page’s HTML.
+ */
+
 document.addEventListener("DOMContentLoaded", () => {
     initASCII();
     console.log("✅ initialized initASCII");
 });
 
 /**
- * HYMN | initGradientOnScroll
- * @build 13.09.25 @updated 23:14 PHT
+ * HYMN | initGradientOnScroll v1
+ * @build 13.09.25 @updated 23:36 PHT
+ * Fades in a header gradient as the page is scrolled using GSAP ScrollTrigger.
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initGradientOnScroll();
     console.log("✅ initialized initGradientOnScroll");
@@ -64,8 +73,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /**
  * HYMN | initLazyloadVimeo
- * @build 04.11.24 @updated 13.09.25 @23:45 PHT
+ * @build 04.11.24 @updated 23:45 PHT
+ * Lazy-loads Vimeo videos and autoplays them when scrolled into view using ScrollTrigger.
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initLazyloadVimeo();
     console.log("✅ initialized initLazyloadVimeo");
@@ -75,6 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 * HYMN | initProjectSubnavScroll
 * @build 19.11.24 @updated 13.09.25 @23:55 PHT
 */
+
 document.addEventListener("DOMContentLoaded", () => {
     initProjectSubnavScroll();
     console.log("✅ initialized initProjectSubnavScroll");
@@ -93,6 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
  * HYMN | initNextHover
  * @build 04.09.24 @updated 13.09.25 @23:59 PHT
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initNextHover();
     console.log("✅ initialized initNextHover");
@@ -101,6 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /**
  * HYMN | initHeaderImgScaleScrub
  * @build 07.08.25 @updated 13.09.25 @23:59 PHT
+ * Animates header image scaling, gradient height, and video opacity on scroll using GSAP.
  */
 document.addEventListener("DOMContentLoaded", () => {
     initHeaderImgScaleScrub();
@@ -109,8 +123,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /**
  * UTILITY | initMailtoNewTab
- * @build 07.08.25 @updated 13.09.25 @23:59 PHT
+ * @build 04.09.24 @updated 23:59 PHT
+ * Opens mailto links in a new browser tab instead of the current one.
  */
+
 document.addEventListener('DOMContentLoaded', () => {
     initMailtoNewTab();
     console.log('✅ initialized initMailtoNewTab');
@@ -118,8 +134,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /**
  * HYMN | initHeadlineDown
- * @build 18.09.24 @updated 13.09.25 @23:59 PHT
+ * @build 18.09.24 @updated 23:59 PHT
+ * Animates a headline moving down as the page scrolls using GSAP ScrollTrigger.
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initHeadlineDown();
     console.log("✅ initialized initHeadlineDown");
@@ -129,6 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
  * UTILITY | initTransitionOverlay
  * @build 04.11.24 @updated 13.09.25 @23:59 PHT
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initTransitionOverlay();
     console.log("✅ initialized initTransitionOverlay");
@@ -138,6 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
  * HYMN | initSeemoreCTALanguage
  * @build 17.12.24 @updated 13.09.25 @23:59 PHT
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initSeemoreCTALanguage();
     console.log("✅ initialized initSeemoreCTALanguage");
@@ -147,6 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
  * HYMN | initServices
  * @build 18.09.24 @updated 14.09.25 @00:08 PHT
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initServices();
     console.log("✅ initialized initServices");
@@ -154,8 +175,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /**
  * HYMN | initNavLogoShrink
- * @build 10.09.24 @updated 14.09.25 @00:42 PHT
+ * @build 10.09.24 @updated 00:42 PHT
+ * Mobile nav logo shrink/expand on scroll using GSAP ScrollTrigger, active only on screens ≤479px.
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initNavLogoShrink();
     console.log("✅ initialized initNavLogoShrink");
@@ -165,6 +188,7 @@ document.addEventListener("DOMContentLoaded", () => {
  * 🥭 UTILITY | initSafariIframeGuard
  * @build 15.08.25 @updated 14.09.25 @00:50 PHT
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initSafariIframeGuard();
     console.log("✅ initialized initSafariIframeGuard");
@@ -172,8 +196,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /**
  * HYMN | initLanguageSwitcher
- * @build 31.08.25 @updated 14.09.25 @01:05 PHT
+ * @build 31.08.25 @updated 01:05 PHT
+ * Enables a language switcher that toggles options, stores preference, and redirects on selection.
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initLanguageSwitcher();
     console.log("✅ initialized initLanguageSwitcher");

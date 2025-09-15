@@ -1,6 +1,7 @@
 /**
- * HYMN | lazyload vimeo autoplay v1
- * @build 04.11.24 @updated 13.09.25 @23:45 PHT
+ * HYMN | initLazyloadVimeo
+ * @build 04.11.24 @updated 23:45 PHT
+ * Lazy-loads Vimeo videos and autoplays them when scrolled into view using ScrollTrigger.
  */
 
 export function initLazyloadVimeo() {

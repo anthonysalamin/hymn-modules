@@ -8,7 +8,8 @@ import { initStickyListAnchor } from 'https://hymn-design.netlify.app/js/pages/s
 
 /**
  * HYMN | initStickyListAnchor
- * @build 01.12.24 @updated 13:02
+ * Adds clickable sticky list anchors that scroll smoothly to their targets and highlight the active item.
+ * @build 11.09.24 @updated 22:28
  */
 initStickyListAnchor();
 console.log("✅ initialized initStickyListAnchor");

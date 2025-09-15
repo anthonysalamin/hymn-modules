@@ -8,6 +8,7 @@ import { initLottie } from 'https://hymn-design.netlify.app/js/pages/static/home
 
 /**
  * HYMN | initLottie
+ * Loads and plays a Lottie animation with overlay fade-out on completion.
  * @build 01.12.24 @updated 13:02
  */
 initLottie();

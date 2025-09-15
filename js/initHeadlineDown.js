@@ -1,6 +1,7 @@
 /**
  * HYMN | initHeadlineDown
- * @build 18.09.24 @updated 13.09.25 @23:59 PHT
+ * @build 18.09.24 @updated 23:59 PHT
+ * Animates a headline moving down as the page scrolls using GSAP ScrollTrigger.
  */
 
 export function initHeadlineDown() {

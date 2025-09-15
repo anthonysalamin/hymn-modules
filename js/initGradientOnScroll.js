@@ -1,6 +1,7 @@
 /**
- * HYMN | gradient on scroll v1
+ * HYMN | initGradientOnScroll v1
  * @build 13.09.25 @updated 23:36 PHT
+ * Fades in a header gradient as the page is scrolled using GSAP ScrollTrigger.
  */
 
 export function initGradientOnScroll() {
