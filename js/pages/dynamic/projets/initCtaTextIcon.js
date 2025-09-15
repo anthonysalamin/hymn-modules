@@ -1,6 +1,7 @@
 /**
  * HYMN | initCtaTextIcon
  * @build 11.09.24 @updated 22:35 PHT
+ * Toggles the CTA button text between "Info" and "Close" with icon rotation based on state and language.
  */
 
 export function initCtaTextIcon() {
