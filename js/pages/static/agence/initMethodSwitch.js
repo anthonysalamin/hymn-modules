@@ -1,7 +1,7 @@
 /**
- * HYMN | initMethodSwitch
- * v1.1
- * build: 19.09.24 @12:16
+ * HYMN | initMethodSwitch v1.1
+ * Enables interactive slide cards that toggle front and back content with animated transitions.
+ * @build 19.09.24 @updated 12:16
  */
 export function initMethodSwitch() {
     document.addEventListener("DOMContentLoaded", () => {

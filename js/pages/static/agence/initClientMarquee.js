@@ -1,7 +1,7 @@
 /**
- * HYMN | initClientMarquee
- * v2.1 (Safari)
- * build 12.08.25 @ 21:14 PHT
+ * HYMN | initClientMarquee v2.1 (Safari)
+ * Creates a continuously scrolling client logo marquee with responsive resizing.
+ * @build 12.08.25 @updated 21:14 PHT
  */
 export function initClientMarquee() {
     function debounce(func, delay = 200) {
