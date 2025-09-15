@@ -1,7 +1,7 @@
 /**
  * UTILITY | initRemoveEmptyVideos
  * @build 06.01.25 @updated 21:14 PHT
- * * It removes all video containers without a data-url attribute and refreshes Lenis page scroll once the DOM is loaded.
+ * It removes all video containers without a data-url attribute and refreshes Lenis page scroll once the DOM is loaded.
  */
 
 export function initRemoveEmptyVideos() {
