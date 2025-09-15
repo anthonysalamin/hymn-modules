@@ -5,6 +5,7 @@
 console.log("🦄 deploying studio-life-events modules");
 
 import { initRemoveEmptyVideos } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initRemoveEmptyVideos.js?v=1.0.0';
+import { initRemoveEmptyImages } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initRemoveEmptyImages.js?v=1.0.0';
 
 /**
  * UTILITY | remove empty videos
@@ -13,3 +14,12 @@ import { initRemoveEmptyVideos } from 'https://hymn-design.netlify.app/js/pages/
  */
 initRemoveEmptyVideos();
 console.log("✅ initialized initRemoveEmptyVideos");
+
+
+/**
+ * UTILITY | initRemoveEmptyImages
+ * @build 13.08.25 @updated 17:54 PHT
+ * Removes all images with the class .w-condition-invisible and updates Lenis page scroll
+ */
+initRemoveEmptyImages();
+console.log("✅ initialized initRemoveEmptyImages");

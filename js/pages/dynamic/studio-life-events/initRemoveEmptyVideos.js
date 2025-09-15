@@ -1,5 +1,5 @@
 /**
- * UTILITY | remove empty videos
+ * UTILITY | initRemoveEmptyVideos
  * @build 06.01.25 @updated 21:14 PHT
  * Removes all <div> elements with empty data-url attributes and updates Lenis page scroll
  */
