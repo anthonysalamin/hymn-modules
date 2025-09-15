@@ -1,7 +1,9 @@
 /**
  * HYMN | initSmoothScroll
- * @build 15.08.25 @updated 14.09.25 @22:40 PHT
+ * @build 15.08.25 @updated 22:40 PHT
+ * Initializes smooth scrolling with Lenis and integrates it with ScrollTrigger, handling dynamic content resizing.
  */
+
 export function initSmoothScroll() {
     class SmoothScrollManager {
         constructor() {

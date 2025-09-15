@@ -25,17 +25,19 @@ import { initSafariIframeGuard } from 'https://hymn-design.netlify.app/js/initSa
 import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
 
 /**
- * HYMN | initRouting
- * @build 02.10.21 @updated 23:32
-*/
+ * UTILITY | routing
+ * @build 13.09.25 @updated 22:35 PHT
+ * Automatically redirects users to the English version if their browser language isn’t French and no preference is stored.
+ */
 
 initRouting();
 console.log("✅ initialized initRouting");
 
 /**
  * HYMN | initSmoothScroll
- * @build 02.10.21 @updated 23:32
-*/
+ * @build 15.08.25 @updated 22:40 PHT
+ * Initializes smooth scrolling with Lenis and integrates it with ScrollTrigger, handling dynamic content resizing.
+ */
 
 initSmoothScroll();
 console.log("✅ initialized initSmoothScroll");
@@ -83,9 +85,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
-* HYMN | initProjectSubnavScroll
-* @build 19.11.24 @updated 13.09.25 @23:55 PHT
-*/
+ * HYMN | initProjectSubnavScroll v5.6
+ * @build 19.11.24 @updated 23:55 PHT
+ * Switches between two subnav groups with smooth fade and slide animations based on scroll direction.
+ */
 
 document.addEventListener("DOMContentLoaded", () => {
     initProjectSubnavScroll();
@@ -93,9 +96,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * HYMN | initNextImg
- * @build 16.09.24 @updated 13.09.25 @23:59 PHT
+ * HYMN | next img v1.1
+ * @build 16.09.24 @updated 23:59 PHT
+ * Animates the “next” image into view with a scroll-triggered upward movement and fade-in effect.
  */
+
 document.addEventListener("DOMContentLoaded", () => {
     initNextImg();
     console.log("✅ initialized initNextImg");
@@ -103,7 +108,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /**
  * HYMN | initNextHover
- * @build 04.09.24 @updated 13.09.25 @23:59 PHT
+ * @build 04.09.24 @updated 23:59 PHT
+ * Adds a hover effect that scales the “next” image up on mouse enter and back on mouse leave.
  */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -145,7 +151,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /**
  * UTILITY | initTransitionOverlay
- * @build 04.11.24 @updated 13.09.25 @23:59 PHT
+ * @build 04.11.24 @updated 23:59 PHT
+ * Fades out and hides a page transition overlay after a short delay.
  */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -155,7 +162,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /**
  * HYMN | initSeemoreCTALanguage
- * @build 17.12.24 @updated 13.09.25 @23:59 PHT
+ * @build 17.12.24 @updated 23:59 PHT
+ * Sets the “See More” portfolio CTA link according to the page language (English or default).
  */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -165,7 +173,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /**
  * HYMN | initServices
- * @build 18.09.24 @updated 14.09.25 @00:08 PHT
+ * @build 18.09.24 @updated 00:08 PHT
+ * Enables draggable service boxes with animated scaling and updates the main service image as items scroll into view.
  */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -185,8 +194,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * 🥭 UTILITY | initSafariIframeGuard
- * @build 15.08.25 @updated 14.09.25 @00:50 PHT
+ * UTILITY | initSafariIframeGuard
+ * @build 15.08.25 @updated 00:50 PHT
+ * Adds a temporary overlay on Vimeo/YouTube iframes in Safari to prevent accidental scroll hijacking.
  */
 
 document.addEventListener("DOMContentLoaded", () => {

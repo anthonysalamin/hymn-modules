@@ -1,8 +1,9 @@
 /**
  * HYMN | initClickDrag v2.1
- * Enables draggable horizontal sliders with a custom drag cursor
  * @build 06.08.25 @updated 15:54
+ * Enables draggable horizontal sliders with a custom drag cursor
  */
+
 export function initClickDrag() {
     document.addEventListener("DOMContentLoaded", () => {
         const OPTIONS = {

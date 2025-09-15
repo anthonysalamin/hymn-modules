@@ -1,6 +1,7 @@
 /**
  * UTILITY | initTransitionOverlay
- * @build 04.11.24 @updated 13.09.25 @23:59 PHT
+ * @build 04.11.24 @updated 23:59 PHT
+ * Fades out and hides a page transition overlay after a short delay.
  */
 
 export function initTransitionOverlay() {

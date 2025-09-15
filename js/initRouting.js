@@ -1,6 +1,7 @@
 /**
  * UTILITY | routing
  * @build 13.09.25 @updated 22:35 PHT
+ * Automatically redirects users to the English version if their browser language isn’t French and no preference is stored.
  */
 
 export function initRouting() {

@@ -1,6 +1,7 @@
 /**
  * HYMN | initLottie
  * @build 01.12.24 @updated 13:02
+ * Loads and plays a Lottie animation with overlay fade-out on completion.
  */
 
 export function initLottie() {

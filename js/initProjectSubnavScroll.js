@@ -1,6 +1,7 @@
 /**
- * HYMN | project subnav scroll v5.6
- * @build 19.11.24 @updated 13.09.25 @23:55 PHT
+ * HYMN | initProjectSubnavScroll v5.6
+ * @build 19.11.24 @updated 23:55 PHT
+ * Switches between two subnav groups with smooth fade and slide animations based on scroll direction.
  */
 
 export function initProjectSubnavScroll() {

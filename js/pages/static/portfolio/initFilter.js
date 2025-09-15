@@ -1,7 +1,7 @@
 /**
  * HYMN | initFilter v9
- * Adds interactive filtering for projects with grid view toggles, reset button, and MixItUp animations.
  * @build 16.12.24 @updated 23:56 PHT
+ * Adds interactive filtering for projects with grid view toggles, reset button, and MixItUp animations.
  */
 
 export function initFilter() {

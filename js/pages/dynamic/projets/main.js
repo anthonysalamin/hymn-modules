@@ -13,7 +13,7 @@ import { initListAnchor } from 'https://hymn-design.netlify.app/js/pages/dynamic
 /**
  * UTILITY | initRemoveEmptyVideos
  * @build 06.01.25 @updated 21:14 PHT
- * * It removes all video containers without a data-url attribute and refreshes Lenis page scroll once the DOM is loaded.
+ * It removes all video containers without a data-url attribute and refreshes Lenis page scroll once the DOM is loaded.
  */
 initRemoveEmptyVideos();
 console.log("✅ initialized initRemoveEmptyVideos");
@@ -37,7 +37,7 @@ console.log("✅ initialized initCtaTextIcon");
 /**
  * HYMN | initLazyloadVimeo v2.7.6.1
  * @build 06.11.24 @updated 18:51 PHT
- * lazy-loads Vimeo videos with autoplay, cursor interaction, responsive wrappers, and status logging.
+ * Lazy-loads Vimeo videos with autoplay, cursor interaction, responsive wrappers, and status logging.
  */
 initLazyloadVimeo();
 

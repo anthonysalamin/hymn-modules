@@ -1,6 +1,7 @@
 /**
  * HYMN | initSeemoreCTALanguage
- * @build 17.12.24 @updated 13.09.25 @23:59 PHT
+ * @build 17.12.24 @updated 23:59 PHT
+ * Sets the “See More” portfolio CTA link according to the page language (English or default).
  */
 
 export function initSeemoreCTALanguage() {

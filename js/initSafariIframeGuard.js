@@ -1,6 +1,7 @@
 /**
- * 🥭 UTILITY | initSafariIframeGuard
- * @build 15.08.25 @updated 14.09.25 @00:50 PHT
+ * UTILITY | initSafariIframeGuard
+ * @build 15.08.25 @updated 00:50 PHT
+ * Adds a temporary overlay on Vimeo/YouTube iframes in Safari to prevent accidental scroll hijacking.
  */
 
 export function initSafariIframeGuard() {

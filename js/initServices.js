@@ -1,6 +1,7 @@
 /**
  * HYMN | initServices
- * @build 18.09.24 @updated 14.09.25 @00:08 PHT
+ * @build 18.09.24 @updated 00:08 PHT
+ * Enables draggable service boxes with animated scaling and updates the main service image as items scroll into view.
  */
 
 export function initServices() {

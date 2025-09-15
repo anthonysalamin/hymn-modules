@@ -1,7 +1,7 @@
 /**
  * UTILITY | initGoBack
- * Adds a button that navigates back to the previous page when clicked.
  * @build 26.10.24 @updated 13:01
+ * Adds a button that navigates back to the previous page when clicked.
 */
 
 export function initGoBack() {

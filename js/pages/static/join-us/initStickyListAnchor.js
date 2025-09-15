@@ -1,7 +1,7 @@
 /**
  * HYMN | initStickyListAnchor
- * Adds clickable sticky list anchors that scroll smoothly to their targets and highlight the active item.
  * @build 11.09.24 @updated 22:28
+ * Adds clickable sticky list anchors that scroll smoothly to their targets and highlight the active item.
  */
 
 export function initStickyListAnchor() {

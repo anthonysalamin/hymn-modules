@@ -1,6 +1,7 @@
 /**
  * HYMN | initNextHover
- * @build 04.09.24 @updated 13.09.25 @23:59 PHT
+ * @build 04.09.24 @updated 23:59 PHT
+ * Adds a hover effect that scales the “next” image up on mouse enter and back on mouse leave.
  */
 
 export function initNextHover() {
