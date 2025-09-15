@@ -3,9 +3,12 @@
  * @build 14.09.25 @updated 21:42 PHT
 */
 
-console.log("🦄 deploying politique-de-confidentialite modules");
+console.log(
+    "%c🦄 Deploying politique-de-confidentialite modules",
+    "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
+);
 
 import { initGoBack } from 'https://hymn-design.netlify.app/js/pages/static/politique-de-confidentialite/initGoBack.js?v=1.0.0';
 
 initGoBack();
-console.log("✅ All page-specific modules initialized successfully");
+console.log("✅ All politique-de-confidentialite modules initialized successfully");

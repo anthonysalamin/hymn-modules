@@ -3,7 +3,10 @@
  * @build 14.09.25 @updated 21:42 PHT
 */
 
-console.log("🦄 deploying agence modules");
+console.log(
+    "%c🦄 Deploying agence modules",
+    "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
+  );
 
 import { initClientMarquee } from 'https://hymn-design.netlify.app/js/pages/static/agence/initClientMarquee.js?v=1.0.0';
 import { initClickDrag } from 'https://hymn-design.netlify.app/js/pages/static/agence/initClickDrag.js?v=1.0.0';
@@ -12,4 +15,4 @@ import { initMethodSwitch } from 'https://hymn-design.netlify.app/js/pages/stati
 initClientMarquee();
 initClickDrag();
 initMethodSwitch();
-console.log("✅ All page-specific modules initialized successfully");
+console.log("✅ All agence modules initialized successfully");

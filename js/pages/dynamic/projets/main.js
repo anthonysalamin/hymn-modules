@@ -3,7 +3,10 @@
  * @build 14.09.25 @updated 21:42 PHT
 */
 
-console.log("🦄 deploying projets modules");
+console.log(
+    "%c🦄 Deploying projets modules",
+    "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
+  );
 
 import { initRemoveEmptyVideos } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initRemoveEmptyVideos.js?v=1.0.0';
 import { initRemoveEmptyImages } from 'https://hymn-design.netlify.app/js/pages/dynamic/projets/initRemoveEmptyImages.js?v=1.0.0';
@@ -18,5 +21,5 @@ initLazyloadVimeo();
 
 document.addEventListener("DOMContentLoaded", () => {
     initListAnchor();
-    console.log("✅ All page-specific modules initialized successfully");
+    console.log("✅ All projets modules initialized successfully");
 });
