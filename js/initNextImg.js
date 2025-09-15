@@ -12,7 +12,7 @@ export function initNextImg() {
     // Skip if element not found
     const imageEl = document.querySelector(IMAGE_SELECTOR);
     if (!imageEl) {
-        console.log("skipping next image animation");
+        // console.log("skipping next image animation");
         return;
     }
 

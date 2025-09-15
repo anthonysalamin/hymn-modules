@@ -54,13 +54,13 @@ export function initLottie() {
 
         // Play animation when loaded
         animation.addEventListener("DOMLoaded", () => {
-            console.log("HYMN JSON data loaded, playing animation");
+            console.log("✅ HYMN JSON data loaded, playing animation");
             animation.play();
         });
 
         // Fade out overlay on completion
         animation.addEventListener("complete", () => {
-            console.log("HYMN lottie animation finished ✨");
+            console.log("✅ HYMN lottie animation finished");
             fadeOutOverlay(LOTTIE_OPTIONS.OVERLAY);
         });
 

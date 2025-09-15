@@ -9,7 +9,7 @@ export function initNextHover() {
     const TARGET = document.querySelector('[data-id="next__image"]');
 
     if (!TRIGGER || !TARGET) {
-        console.log("skipping next hover states");
+        // console.log("skipping next hover states");
         return;
     }
 
