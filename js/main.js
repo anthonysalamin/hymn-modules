@@ -4,7 +4,10 @@
  * Initializes all site modules in proper dependency order
  */
 
-console.log("🦄 deploying main modules");
+console.log(
+    "%c🦄 deploying main modules",
+    "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
+  );
 
 // Foundation modules - must load first
 import { initRouting } from 'https://hymn-design.netlify.app/js/initRouting.js?v=1.0.0';
