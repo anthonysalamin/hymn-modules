@@ -25,7 +25,7 @@ import { initSafariIframeGuard } from 'https://hymn-design.netlify.app/js/initSa
 import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
 
 /**
- * UTILITY | routing
+ * UTILITY | initRouting
  * @build 13.09.25 @updated 22:35 PHT
  * Automatically redirects users to the English version if their browser language isn’t French and no preference is stored.
  */
@@ -52,7 +52,7 @@ initNavigation();
 console.log("✅ initialized initNavigation");
 
 /**
- * UTILITY | initASCII v1.0.0
+ * UTILITY | initASCII
  * @build 02.10.21 @updated 23:32
  * Inserts a decorative ASCII art comment into the page’s HTML.
  */
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * HYMN | initGradientOnScroll v1
+ * HYMN | initGradientOnScroll
  * @build 13.09.25 @updated 23:36 PHT
  * Fades in a header gradient as the page is scrolled using GSAP ScrollTrigger.
  */
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * HYMN | initProjectSubnavScroll v5.6
+ * HYMN | initProjectSubnavScroll
  * @build 19.11.24 @updated 23:55 PHT
  * Switches between two subnav groups with smooth fade and slide animations based on scroll direction.
  */
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * HYMN | next img v1.1
+ * HYMN | initNextImg
  * @build 16.09.24 @updated 23:59 PHT
  * Animates the “next” image into view with a scroll-triggered upward movement and fade-in effect.
  */

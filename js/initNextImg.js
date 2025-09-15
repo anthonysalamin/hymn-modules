@@ -1,5 +1,5 @@
 /**
- * HYMN | next img v1.1
+ * HYMN | initNextImg
  * @build 16.09.24 @updated 23:59 PHT
  * Animates the “next” image into view with a scroll-triggered upward movement and fade-in effect.
  */
