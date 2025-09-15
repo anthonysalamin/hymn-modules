@@ -90,8 +90,8 @@ export function initNavigation() {
         });
 
         window.lenis__fixedNavigation = lenis__fixedNavigation;
-        console.log("✅ lenis__pageScroll ready:", !!lenis__pageScroll);
-        console.log("✅ lenis__fixedNavigation ready:", !!window.lenis__fixedNavigation);
+        console.log("✅ Lenis pageScroll ready:", !!lenis__pageScroll);
+        console.log("✅ Lenis fixedNavigation ready:", !!window.lenis__fixedNavigation);
 
         ScrollTrigger.scrollerProxy(NAVIGATION_OPTIONS.SEEMORE.SCROLLER, {
             scrollTop(value) {
