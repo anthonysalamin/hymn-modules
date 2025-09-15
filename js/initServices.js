@@ -17,7 +17,7 @@ export function initServices() {
     };
 
     if (!document.querySelector(OPTIONS.draggable)) {
-        console.log("skipping service draggable module");
+        // console.log("skipping service draggable module");
         return;
     }
 

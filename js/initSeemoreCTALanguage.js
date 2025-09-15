@@ -11,7 +11,7 @@ export function initSeemoreCTALanguage() {
 
     const ctaEl = document.querySelector("#seemore-cta-portfolio");
     if (!ctaEl) {
-        console.log("seemore CTA not found");
+        // console.log("seemore CTA not found");
         return;
     }
 

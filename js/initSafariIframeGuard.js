@@ -54,8 +54,8 @@ export function initSafariIframeGuard() {
 
     if (isSafariBrowser()) {
         setupIframeGuards();
-        console.log("✅ Safari detected → iframe scroll guard enabled");
+        // console.log("Safari detected → iframe scroll guard enabled");
     } else {
-        console.log("⚠️ Non-Safari browser → iframe scroll guard skipped");
+       //  console.log("Non-Safari browser → iframe scroll guard skipped");
     }
 }

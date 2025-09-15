@@ -12,7 +12,7 @@ export function initTransitionOverlay() {
 
     const overlayEl = document.querySelector(CONFIG.overlay);
     if (!overlayEl) {
-        console.log("skipping transition overlay");
+        // console.log("skipping transition overlay");
         return;
     }
 
@@ -24,7 +24,7 @@ export function initTransitionOverlay() {
             delay: CONFIG.delay,
             onComplete() {
                 gsap.set(overlayEl, { display: "none" });
-                console.log("transition overlay completed");
+                // console.log("transition overlay completed");
             }
         });
     }
