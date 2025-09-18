@@ -5,7 +5,7 @@
  */
 
 console.log(
-    "%c🦄 Deploying main modules test",
+    "%c🦄 Deploying main modules",
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
   );
 
