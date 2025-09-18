@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initNextImg();
     initNextHover();
     initServices();
-    initBlze();
+    initBlaze();
     
     console.log("✅ All main modules initialized successfully");
 });
