@@ -34,7 +34,7 @@ import { initTransitionOverlay } from 'https://hymn-design.netlify.app/js/initTr
 import { initSeemoreCTALanguage } from 'https://hymn-design.netlify.app/js/initSeemoreCTALanguage.js?v=1.0.0';
 import { initSafariIframeGuard } from 'https://hymn-design.netlify.app/js/initSafariIframeGuard.js?v=1.0.0';
 import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
-import { initBlze } from 'https://hymn-design.netlify.app/js/initBlze.js?v=1.0.0';
+import { initBlaze } from 'https://hymn-design.netlify.app/js/initBlaze.js?v=1.0.0';
 
 // Foundation modules
 initRouting();
