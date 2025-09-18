@@ -28,7 +28,7 @@ export function initBlaze() {
            *&&&&&&&&&&&&&&&&&&,     &&&&&&&
            
            
-        developé avec ❤️ par tonytony.ch
+        développé avec ❤️ par tonytony.ch
                
                       
     `;
