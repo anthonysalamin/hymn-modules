@@ -1,6 +1,15 @@
-/* 🦄 global overrides */
+/* =======================
+   🦄 global overrides 
+   ======================= */
 .w-webflow-badge {
 	display: none !important
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-smooth: always
 }
 
 .svg-embed,
@@ -20,14 +29,9 @@ textarea:focus {
 	user-select: none !important;
 }
 
-* {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-rendering: optimizeLegibility;
-	font-smooth: always
-}
-
-/* 🦄 scrollbar Chrome, Brave, Safari */
+/* =======================
+   🦄 scrollbar Chrome, Brave, Safari
+   ======================= */
 ::-webkit-scrollbar {
 	width: 6px;
 	height: 12px
@@ -54,7 +58,9 @@ textarea:focus {
 	}
 }
 
-/* 🦄 lenis setup */
+/* =======================
+   🦄 lenis setup
+   ======================= */
 .lenis.lenis-smooth {
 	scroll-behavior: auto
 }
@@ -71,7 +77,9 @@ textarea:focus {
 	pointer-events: none
 }
 
-/* 💀 Safari scroll guard overlay */
+/* =======================
+   💀 Safari scroll guard overlay 
+   ======================= */
 .iframe-scroll-guard {
 	position: absolute;
 	inset: 0;
@@ -100,8 +108,9 @@ textarea:focus {
 	contain: layout style paint;
 }
 
-
-/* Hide inactive language onload */
+/* =======================
+   Hide inactive language onload
+   ======================= */
 .locale__cl-item:has(.locale__link:not([aria-current="page"])) {
 	display: none
 }
