@@ -5,7 +5,7 @@
  */
 
 export function initASCII() {
-    const ascii = ` 
+  const ascii = ` 
     
                        .#&&(                   
          #&&&&&&&&&&&&&&&&&&&&%           
@@ -28,11 +28,11 @@ export function initASCII() {
          *&&&&&&&&&&&&&&&&&&,     &&&&&&&
          
          
-    developed with ❤️ by tonytony.ch
+    développé avec ❤️ par tonytony.ch
              
                     
          `;
-    const commentNode = document.createComment(ascii),
-        html = document.getElementsByTagName("html")[0];
-    html.insertBefore(commentNode, html.firstChild);
+  const commentNode = document.createComment(ascii),
+    html = document.getElementsByTagName("html")[0];
+  html.insertBefore(commentNode, html.firstChild);
 }

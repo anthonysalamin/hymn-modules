@@ -1,6 +1,6 @@
 /**
  * HYMN | main nodules
- * @build 15.09.25 @updated 12:51 PHT
+ * @build 19.09.25 @updated 12:51 PHT
  * © 2025 TONYTONY Sàrl
  */
 
@@ -33,8 +33,8 @@ import { initMailtoNewTab } from 'https://hymn-design.netlify.app/js/initMailtoN
 import { initTransitionOverlay } from 'https://hymn-design.netlify.app/js/initTransitionOverlay.js?v=1.0.0';
 import { initSeemoreCTALanguage } from 'https://hymn-design.netlify.app/js/initSeemoreCTALanguage.js?v=1.0.0';
 import { initSafariIframeGuard } from 'https://hymn-design.netlify.app/js/initSafariIframeGuard.js?v=1.0.0';
-import { initASCII } from 'https://hymn-design.netlify.app/js/initASCII.js?v=1.0.0';
-import { initBlaze } from 'https://hymn-design.netlify.app/js/initBlaze.js?v=1.0.0';
+import { initASCII } from 'https://cdn.hymn.design/js/initASCII.js?v=1.0.0';
+import { initBlaze } from 'https://cdn.hymn.design/js/initBlaze.js?v=1.0.0';
 
 // Foundation modules
 initRouting();
