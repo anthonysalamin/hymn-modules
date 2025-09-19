@@ -8,7 +8,7 @@ console.log(
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
 );
 
-import { initFilter } from 'https://hymn-design.netlify.app/js/pages/static/portfolio/initFilter.js?v=1.0.0';
+import { initFilter } from 'https://cdn.hymn.design/js/pages/static/portfolio/initFilter.js?v=1.0.0';
 
 initFilter();
 console.log("✅ All portfolio modules initialized successfully");

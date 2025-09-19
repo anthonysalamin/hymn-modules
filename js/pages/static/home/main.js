@@ -8,7 +8,7 @@ console.log(
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
   );
 
-import { initLottie } from 'https://hymn-design.netlify.app/js/pages/static/home/initLottie.js?v=1.0.0';
+import { initLottie } from 'https://cdn.hymn.design/js/pages/static/home/initLottie.js?v=1.0.0';
 
 initLottie();
 console.log("✅ All home modules initialized successfully");

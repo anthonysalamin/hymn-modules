@@ -8,9 +8,9 @@ console.log(
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
   );
 
-import { initClientMarquee } from 'https://hymn-design.netlify.app/js/pages/static/agence/initClientMarquee.js?v=1.0.0';
-import { initClickDrag } from 'https://hymn-design.netlify.app/js/pages/static/agence/initClickDrag.js?v=1.0.0';
-import { initMethodSwitch } from 'https://hymn-design.netlify.app/js/pages/static/agence/initMethodSwitch.js?v=1.0.0';
+import { initClientMarquee } from 'https://cdn.hymn.design/js/pages/static/agence/initClientMarquee.js?v=1.0.0';
+import { initClickDrag } from 'https://cdn.hymn.design/js/pages/static/agence/initClickDrag.js?v=1.0.0';
+import { initMethodSwitch } from 'https://cdn.hymn.design/js/pages/static/agence/initMethodSwitch.js?v=1.0.0';
 
 initClientMarquee();
 initClickDrag();

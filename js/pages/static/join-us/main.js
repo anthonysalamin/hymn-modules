@@ -8,7 +8,7 @@ console.log(
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
 );
 
-import { initStickyListAnchor } from 'https://hymn-design.netlify.app/js/pages/static/join-us/initStickyListAnchor.js?v=1.0.0';
+import { initStickyListAnchor } from 'https://cdn.hymn.design/js/pages/static/join-us/initStickyListAnchor.js?v=1.0.0';
 
 initStickyListAnchor();
 console.log("✅ All join-us modules initialized successfully");

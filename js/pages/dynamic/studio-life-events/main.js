@@ -8,10 +8,10 @@ console.log(
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
   );
 
-import { initRemoveEmptyVideos } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initRemoveEmptyVideos.js?v=1.0.0';
-import { initRemoveEmptyImages } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initRemoveEmptyImages.js?v=1.0.0';
-import { initPortfolioVideos } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initPortfolioVideos.js?v=1.0.0';
-import { initPackery } from 'https://hymn-design.netlify.app/js/pages/dynamic/studio-life-events/initPackery.js?v=1.0.0';
+import { initRemoveEmptyVideos } from 'https://cdn.hymn.design/js/pages/dynamic/studio-life-events/initRemoveEmptyVideos.js?v=1.0.0';
+import { initRemoveEmptyImages } from 'https://cdn.hymn.design/js/pages/dynamic/studio-life-events/initRemoveEmptyImages.js?v=1.0.0';
+import { initPortfolioVideos } from 'https://cdn.hymn.design/js/pages/dynamic/studio-life-events/initPortfolioVideos.js?v=1.0.0';
+import { initPackery } from 'https://cdn.hymn.design/js/pages/dynamic/studio-life-events/initPackery.js?v=1.0.0';
 
 initRemoveEmptyVideos();
 initRemoveEmptyImages();
