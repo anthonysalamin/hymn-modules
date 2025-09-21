@@ -1,7 +1,7 @@
 /**
  * UTILITY | initASCII
  * @build 02.10.21 @updated 23:32
- * Inserts a decorative ASCII art comment into the page’s HTML.
+ * Inserts an ASCII art comment into the page’s header.
  */
 
 export function initASCII() {
