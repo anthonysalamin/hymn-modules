@@ -40,6 +40,7 @@ Hymn Design SA was founded in Lausanne, Switzerland. We work with Swiss and inte
 - [Join Us](https://hymn.design/en/join-us): Career opportunities at Hymn
 
 ### French versions
+
 - [Accueil](https://hymn.design/): Vue d'ensemble de l'agence
 - [Agence](https://hymn.design/agence): À propos de Hymn
 - [Portfolio](https://hymn.design/portfolio): Tous les projets

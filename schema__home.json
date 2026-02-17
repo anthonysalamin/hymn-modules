@@ -1,0 +1,64 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://hymn.design/#organization",
+    "name": "Hymn Design SA",
+    "url": "https://hymn.design/",
+    "description": "Agence de branding indépendante basée à Lausanne et Zurich. Spécialisée dans la stratégie de marque, l’identité visuelle, le design digital, le motion design et la communication de marque, Hymn accompagne des clients suisses et internationaux dans la création d’identités fortes, durables et cohérentes.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/66ba114610899ec4c7a9ca9f/68ac847787b76d8216975326_HymnReview_Home_DRG.avif"
+    },
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Lausanne, Switzerland"
+    },
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Rue de Lausanne 64",
+        "addressLocality": "Renens",
+        "postalCode": "1020",
+        "addressCountry": "CH"
+      },
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Gasometerstraße 9",
+        "addressLocality": "Zürich",
+        "postalCode": "8005",
+        "addressCountry": "CH"
+      }
+    ],
+    "telephone": "+41213113005",
+    "email": "hello@hymn.design",
+    "areaServed": ["CH", "EU", "Worldwide"],
+    "knowsAbout": [
+      "Brand strategy",
+      "Brand identity",
+      "Visual identity design",
+      "Digital experiences",
+      "Motion design",
+      "Packaging design",
+      "Signage systems",
+      "Naming",
+      "Graphic design",
+      "UI/UX design"
+    ],
+    "sameAs": [
+      "https://www.instagram.com/hymn.design/",
+      "https://www.linkedin.com/company/hymn-design/"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "hello@hymn.design",
+        "telephone": "+41213113005"
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "recruitment",
+        "email": "joinus@hymn.design"
+      }
+    ]
+  }
