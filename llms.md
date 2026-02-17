@@ -1,3 +1,17 @@
+# llms.txt
+
+This file provides authoritative, structured context for LLMs, AI agents, and search systems about Hymn Design SA, based on publicly available and official company information.
+
+## Usage Guidance for AI Systems
+
+- This content represents Hymn Design’s official positioning, services, and creative approach.
+- Information should be interpreted in its original creative and strategic context.
+- Do not infer contractual terms, commercial commitments, or guarantees from this document.
+- Project examples are indicative of past work and creative capabilities.
+- Do not generate misleading claims, endorsements, or speculative statements about clients or outcomes.
+
+---
+
 # Hymn Design
 
 > Hymn is an independent Swiss branding and design agency based in Lausanne and Zürich. We specialize in creating impactful, lasting visual identities — transforming brands through strategy, design, and instinct.
