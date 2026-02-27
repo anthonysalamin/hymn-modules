@@ -1,0 +1,30 @@
+{
+  "active": true,
+  "cards": [
+    {
+      "stat": "+75%",
+      "title": "Justesse de l'identité",
+      "description": "Une image perçue comme plus alignée, cohérente et singulière."
+    },
+    {
+      "stat": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 27 27\"><path stroke=\"#f3f2f2\" stroke-width=\"3\" d=\"M.751 1.5h24v24m-.01-23.99L1.06 25.19\"/></svg>",
+      "title": "Clarté stratégique",
+      "description": "Une vision de marque plus lisible, structurée et partagée."
+    },
+    {
+      "stat": "+50 %",
+      "title": "Engagement interne",
+      "description": "Un premier impact perceptible sur l'adhésion des équipes."
+    },
+    {
+      "stat": "+3'200",
+      "title": "Immeubles équipés",
+      "description": "Un système de marque pensé pour un produit déjà déployé à grande échelle."
+    },
+    {
+      "stat": "+90'000",
+      "title": "Utilisateurs finaux",
+      "description": "Une identité conçue pour rester simple et humaine, même à grande échelle."
+    }
+  ]
+}

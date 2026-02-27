@@ -45,3 +45,54 @@
     "{{next:seo-opengraph-image}}" // ✅ Dynamic seo-opengraph-image
   ]
 }
+
+
+
+
+
+
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://hymn.design/projets/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+  "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+  "url": "https://hymn.design/projets/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+  "description": "{{wf {&quot;path&quot;:&quot;next:seo-metadata-description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+  "inLanguage": "fr-CH",
+  "creator": {
+    "@type": "Organization",
+    "@id": "https://hymn.design/#organization",
+    "name": "Hymn Design SA",
+    "url": "https://hymn.design/"
+  },
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://hymn.design/#organization"
+  },
+  "about": {
+    "@type": "Brand",
+    "name": "{{wf {&quot;path&quot;:&quot;client&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "{{wf {&quot;path&quot;:&quot;client&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+    }
+  },
+  "keywords": [
+    "branding",
+    "visual identity",
+    "motion design",
+    "graphic design",
+    "digital identity"
+  ],
+  "genre": [
+    "Branding project",
+    "Motion design",
+    "Visual identity"
+  ],
+  "datePublished": "{{wf {&quot;path&quot;:&quot;created-on&quot;,&quot;type&quot;:&quot;Date&quot;\} }}",
+  "image": [
+    "{{wf {&quot;path&quot;:&quot;next:seo-opengraph-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}"
+  ]
+}
