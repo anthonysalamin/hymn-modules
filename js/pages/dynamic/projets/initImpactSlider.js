@@ -5,7 +5,6 @@
  */
 
 export function initImpactSlider() {
-    console.log("🔥 impact slider module initialized");
     (function () {
       const jsonEl = document.querySelector('[data-impact="json"]');
       if (!jsonEl) return;
