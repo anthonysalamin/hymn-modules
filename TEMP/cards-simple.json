@@ -1,0 +1,30 @@
+{
+  "active": true,
+  "cards": [
+    {
+      "stat": "+75%",
+      "title": "Justesse de l'identité",
+      "description": "Une image perçue comme plus alignée, cohérente et singulière."
+    },
+    {
+      "stat": "↗",
+      "title": "Clarté stratégique",
+      "description": "Une vision de marque plus lisible, structurée et partagée."
+    },
+    {
+      "stat": "+50 %",
+      "title": "Engagement interne",
+      "description": "Un premier impact perceptible sur l'adhésion des équipes."
+    },
+    {
+      "stat": "+3'200",
+      "title": "Immeubles équipés",
+      "description": "Un système de marque pensé pour un produit déjà déployé à grande échelle."
+    },
+    {
+      "stat": "+90'000",
+      "title": "Utilisateurs finaux",
+      "description": "Une identité conçue pour rester simple et humaine, même à grande échelle."
+    }
+  ]
+}
