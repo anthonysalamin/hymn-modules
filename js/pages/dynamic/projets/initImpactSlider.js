@@ -9,6 +9,13 @@ export function initImpactSlider() {
   const jsonEl = document.querySelector('[data-impact="json"]');
   if (!jsonEl) return;
 
+
+  /// TEST DEBUG
+  const raw = document.querySelector('[data-impact="json"]').textContent;
+  console.log(raw);
+  console.log(raw.charCodeAt(881), raw.charCodeAt(882), raw.charCodeAt(883));
+  // TEST DEBUG
+
   let data;
   try {
     data = JSON.parse(jsonEl.textContent.trim());
