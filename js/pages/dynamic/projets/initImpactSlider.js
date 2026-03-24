@@ -6,7 +6,6 @@
  */
 
 export function initImpactSlider() {
-  console.log("🔥 initImpactSlider");
   const jsonEl = document.querySelector('[data-impact="json"]');
   if (!jsonEl) return;
 
