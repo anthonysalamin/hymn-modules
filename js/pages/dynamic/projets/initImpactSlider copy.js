@@ -1,8 +1,7 @@
 /**
  * HYMN | initImpactSlider
  * Parses JSON data and populates impact slider cards with stats, titles, and descriptions.
- * @build 27.02.26
- * @updated 24.03.26
+ * @build 27.02.26 @updated 17:52 PHT
  */
 
 export function initImpactSlider() {
@@ -54,6 +53,7 @@ export function initImpactSlider() {
   });
 }
 
+
 function renderStat(statEl, value) {
   const statValue = value.trim();
 
@@ -62,9 +62,6 @@ function renderStat(statEl, value) {
     return;
   }
 
-  const computedStyle = window.getComputedStyle(statEl);
-  const fontSize = computedStyle.fontSize;
-
   const temp = document.createElement("div");
   temp.innerHTML = statValue;
 
@@ -72,9 +69,7 @@ function renderStat(statEl, value) {
   if (!svg) return;
 
   svg.setAttribute("width", "auto");
-  svg.setAttribute("height", fontSize);
-  svg.style.display = "block";
+  svg.setAttribute("height", "24px");
 
-  statEl.innerHTML = "";
-  statEl.appendChild(svg);
+  statEl.replaceWith(svg);
 }
