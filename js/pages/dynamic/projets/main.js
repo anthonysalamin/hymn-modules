@@ -15,7 +15,6 @@ import { initCtaTextIcon } from 'https://cdn.hymn.design/js/pages/dynamic/projet
 import { initLazyloadVimeo } from 'https://cdn.hymn.design/js/pages/dynamic/projets/initLazyloadVimeo.js?v=1.0.0';
 import { initListAnchor } from 'https://cdn.hymn.design/js/pages/dynamic/projets/initListAnchor.js?v=1.0.0';
 
-console.log("🔥🔥about to initImpactSlider");
 initImpactSlider();
 initRemoveEmptyVideos();
 initRemoveEmptyImages();
