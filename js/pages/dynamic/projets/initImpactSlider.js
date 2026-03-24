@@ -78,7 +78,7 @@ function renderStat(statEl, value) {
   const svg = temp.querySelector("svg");
   if (!svg) return;
 
-  svg.setAttribute("width", "auto");
+  svg.removeAttribute("width");
   svg.setAttribute("height", fontSize);
   svg.style.display = "block";
 
