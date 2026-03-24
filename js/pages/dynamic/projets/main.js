@@ -15,13 +15,13 @@ import { initCtaTextIcon } from 'https://cdn.hymn.design/js/pages/dynamic/projet
 import { initLazyloadVimeo } from 'https://cdn.hymn.design/js/pages/dynamic/projets/initLazyloadVimeo.js?v=1.0.0';
 import { initListAnchor } from 'https://cdn.hymn.design/js/pages/dynamic/projets/initListAnchor.js?v=1.0.0';
 
-initImpactSlider();
 initRemoveEmptyVideos();
 initRemoveEmptyImages();
 initCtaTextIcon();
 initLazyloadVimeo();
 
 document.addEventListener("DOMContentLoaded", () => {
+    initImpactSlider();
     initListAnchor();
     console.log("✅ All projets modules initialized successfully");
 });
