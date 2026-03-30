@@ -21,15 +21,13 @@ initMethodSwitch();
 // on DOM loaded
 document.addEventListener("DOMContentLoaded", () => {
 
-  /*
-    const marqueeRoot = document.querySelector('[data-mwg008="root"]');
-    if (marqueeRoot) {
-      initMarkeeMWG008(marqueeRoot);
-      console.log(`✅ Initialized markee MWG008`);
-    }
-    */
+  const marqueeRoot = document.querySelector('[data-mwg008="root"]');
+  if (marqueeRoot) {
+    initMarkeeMWG008(marqueeRoot);
+    console.log(`✅ Initialized markee MWG008`);
+  }
 
-  // font-dependent
+  // on font loaded
   document.fonts.ready.then(() => {
     // console.log(`✅ Initialized all font-dependent modules`);
   });
