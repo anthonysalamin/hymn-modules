@@ -6,6 +6,7 @@
  */
 
 export function initMarkeeMWG008(root) {
+    console.log("🌴initMarkeeMWG008");
     function boot() {
       if (window.gsap && window.Observer) {
         initEffect();
@@ -17,6 +18,7 @@ export function initMarkeeMWG008(root) {
     boot();
   
     function initEffect() {
+        console.log("🌴initEffect");
       if (!root) return;
   
       let total = 0, xTo, itemValues = [];
