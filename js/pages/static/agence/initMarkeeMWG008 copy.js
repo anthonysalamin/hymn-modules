@@ -2,16 +2,14 @@
  * TONYTONY | initMarkeeMWG008
  * Infinite marquee with GSAP-driven drag interaction, random card rotation on press, and seamless loop via cloning.
  * @build 02.02.26
- * @updated 30.03.26
+ * @updated 10.03.26
  */
 
 export function initMarkeeMWG008(root) {
-    console.log("🌴 initMarkeeMWG008");
-  
+    console.log("🌴initMarkeeMWG008");
     function boot() {
       if (window.gsap && window.Observer) {
-        // Double rAF ensures layout is calculated before we read scrollWidth
-        requestAnimationFrame(() => requestAnimationFrame(initEffect));
+        initEffect();
       } else {
         setTimeout(boot, 50);
       }
@@ -20,56 +18,28 @@ export function initMarkeeMWG008(root) {
     boot();
   
     function initEffect() {
-      console.log("🌴 initEffect");
+        console.log("🌴initEffect");
       if (!root) return;
   
-      // ── Query elements ──
-      const content = root.querySelector('[data-mwg008="container"]');
-      if (!content) {
-        console.warn("🌴 MWG008: No [data-mwg008='container'] found inside root.");
-        return;
-      }
+      let total = 0, xTo, itemValues = [];
   
+      const content = root.querySelector('[data-mwg008="container"]');
       const items = content.querySelectorAll(":scope > *");
       const cards = root.querySelectorAll('[data-mwg008="card"]');
       const originalCardsLength = cards.length;
   
-      console.log("🌴 items:", items.length, "| cards:", cards.length);
-  
-      if (!items.length) {
-        console.warn("🌴 MWG008: Container has no children to marquee.");
-        return;
-      }
-  
-      // ── Clone items for seamless loop ──
+      // Clone all collection items to create seamless loop
       items.forEach((item) => {
         const clone = item.cloneNode(true);
         content.appendChild(clone);
       });
   
-      // ── Recalculate after cloning ──
+      // Recalculate after cloning
       const allCards = root.querySelectorAll('[data-mwg008="card"]');
       const singleSetWidth = content.scrollWidth / 2;
-  
-      console.log(
-        "🌴 scrollWidth:", content.scrollWidth,
-        "| singleSetWidth:", singleSetWidth,
-        "| allCards:", allCards.length
-      );
-  
-      if (singleSetWidth <= 0) {
-        console.warn(
-          "🌴 MWG008: singleSetWidth is 0 — container has no rendered width.",
-          "Check that parent is not overflow:hidden with 0 width, and that items have explicit dimensions."
-        );
-        return;
-      }
-  
-      // ── Wrap + quickTo ──
       const wrap = gsap.utils.wrap(-singleSetWidth, 0);
-      let total = 0;
   
-      const xTo = gsap.quickTo(content, "x", {
+      xTo = gsap.quickTo(content, "x", {
         duration: 0.5,
         modifiers: {
           x: gsap.utils.unitize(wrap),
@@ -77,13 +47,10 @@ export function initMarkeeMWG008(root) {
         ease: "power3",
       });
   
-      // ── Random rotation values per original card ──
-      const itemValues = [];
       for (let i = 0; i < originalCardsLength; i++) {
         itemValues.push((Math.random() - 0.5) * 20);
       }
   
-      // ── Press / release timeline ──
       const tl = gsap.timeline({ paused: true });
       tl.to(allCards, {
         rotate: (index) => itemValues[index % originalCardsLength],
@@ -94,7 +61,6 @@ export function initMarkeeMWG008(root) {
         ease: "back.inOut(3)",
       });
   
-      // ── Observer for drag ──
       const gsapObs = Observer.create({
         target: content,
         type: "pointer,touch",
@@ -107,16 +73,13 @@ export function initMarkeeMWG008(root) {
         onStop: () => tl.reverse(),
       });
   
-      // ── Auto-scroll ticker ──
+      gsap.ticker.add(tick);
+  
       function tick(time, deltaTime) {
         total -= deltaTime / 10;
         xTo(total);
       }
   
-      gsap.ticker.add(tick);
-      console.log("🌴 ticker running, initial total:", total);
-  
-      // ── Cleanup on removal ──
       const observer = new MutationObserver((mutations) => {
         const isRootRemoved = mutations.some(
           (mutation) =>
@@ -124,7 +87,6 @@ export function initMarkeeMWG008(root) {
             Array.from(mutation.removedNodes).includes(root)
         );
         if (isRootRemoved) {
-          console.log("🌴 MWG008: root removed, cleaning up.");
           gsap.ticker.remove(tick);
           gsapObs.kill();
           observer.disconnect();
@@ -134,4 +96,3 @@ export function initMarkeeMWG008(root) {
       observer.observe(document.body, { childList: true, subtree: true });
     }
   }
-  
