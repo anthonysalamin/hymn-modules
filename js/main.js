@@ -1,7 +1,9 @@
 /**
- * HYMN | main nodules
- * @build 19.09.25 @updated 12:51 PHT
- * © 2025 TONYTONY Sàrl
+ * HYMN | initApp (main module)
+ * Bootstraps feature modules on DOM ready, then fonts and scroll motion after a short delay.
+ * @build 11.04.26
+ * @updated 13:44 PHT
+ * @author TONYTONY Sàrl
  */
 
 console.log(
