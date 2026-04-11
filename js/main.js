@@ -1,5 +1,5 @@
 /**
- * HYMN | initApp (main module)
+ * HYMN | initApp (global modules)
  * Bootstraps feature modules on DOM ready, then fonts and scroll motion after a short delay.
  * @build 11.04.26
  * @updated 13:44 PHT
