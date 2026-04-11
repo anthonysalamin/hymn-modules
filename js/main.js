@@ -1,5 +1,5 @@
 /**
- * HYMN | initApp (global modules)
+ * HYMN.DESIGN | initApp (global modules)
  * Bootstraps feature modules on DOM ready
  * @build 11.04.26
  * @updated 13:44 PHT
