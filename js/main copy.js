@@ -46,49 +46,36 @@ import { initSafariIframeGuard } from 'https://cdn.hymn.design/js/initSafariIfra
 import { initASCII } from 'https://cdn.hymn.design/js/initASCII.js?v=1.0.0';
 import { initBlaze } from 'https://cdn.hymn.design/js/initBlaze.js?v=1.0.0';
 
-// ── Runner ───────────────────────────────────────────────────────────────────
+// Foundation modules
+initRouting();
+initSmoothScroll();
+initNavigation();
 
-function run(label, fn) {
-  try {
-    fn();
-  } catch (error) {
-    console.error(`Ooopsi 👹 ${label} failed:`, error);
-  }
-}
-
-// ── Bootstrap ────────────────────────────────────────────────────────────────
-
-async function initApp() {
-  // Foundation
-  run("Routing", initRouting);
-  run("SmoothScroll", initSmoothScroll);
-  run("Navigation", initNavigation);
-
-  // Basic utilities first
-  run("ASCII", initASCII);
-  run("TransitionOverlay", initTransitionOverlay);
-  run("MailtoNewTab", initMailtoNewTab);
-  run("SafariIframeGuard", initSafariIframeGuard);
-
-  // Language & content setup
-  run("LanguageSwitcher", initLanguageSwitcher);
-  run("SeemoreCTALanguage", initSeemoreCTALanguage);
-
-  // Scroll-triggered animations — depend on smooth scroll foundation
-  run("GradientOnScroll", initGradientOnScroll);
-  run("HeaderImgScaleScrub", initHeaderImgScaleScrub);
-  run("HeadlineDown", initHeadlineDown);
-  run("ProjectSubnavScroll", initProjectSubnavScroll);
-  run("NavLogoShrink", initNavLogoShrink);
-
-  // Media and interactive elements
-  run("LazyloadVimeo", initLazyloadVimeo);
-  run("NextImg", initNextImg);
-  run("NextHover", initNextHover);
-  run("Services", initServices);
-  run("Blaze", initBlaze);
-
-  console.log("✅ All main modules initialized successfully");
-}
-
-document.addEventListener("DOMContentLoaded", initApp);
+// DOM-dependent modules
+document.addEventListener("DOMContentLoaded", () => {
+    // Basic utilities first
+    initASCII();
+    initTransitionOverlay();
+    initMailtoNewTab();
+    initSafariIframeGuard();
+    
+    // Language & content setup
+    initLanguageSwitcher();
+    initSeemoreCTALanguage();
+    
+    // Scroll-triggered animations - depend on smooth scroll foundation
+    initGradientOnScroll();
+    initHeaderImgScaleScrub();
+    initHeadlineDown();
+    initProjectSubnavScroll();
+    initNavLogoShrink();
+    
+    // Media and interactive elements
+    initLazyloadVimeo();
+    initNextImg();
+    initNextHover();
+    initServices();
+    initBlaze();
+    
+    console.log("✅ All main modules initialized successfully");
+});
