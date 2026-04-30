@@ -7,29 +7,23 @@
  * @author TONYTONY Sàrl
  */
 
-console.log(
-  "%c🥭 Deploying main modules",
-  "color: white; background: #2d6a4f; padding: 2px 6px; border-radius: 3px;",
-);
+console.log("%c🥭 Deploying main modules", "color: white; background: #2d6a4f; padding: 2px 6px; border-radius: 3px;");
 
 // Foundation modules
 import { initRouting } from 'https://cdn.hymn.design/js/initRouting.js?v=1.0.0';
 import { initSmoothScroll } from 'https://cdn.hymn.design/js/initSmoothScroll.js?v=1.0.0';
 import { initNavigation } from 'https://cdn.hymn.design/js/initNavigation.js?v=1.0.0';
-
 // Animation & scroll modules
 import { initGradientOnScroll } from 'https://cdn.hymn.design/js/initGradientOnScroll.js?v=1.0.0';
 import { initHeaderImgScaleScrub } from 'https://cdn.hymn.design/js/initHeaderImgScaleScrub.js?v=1.0.0';
 import { initHeadlineDown } from 'https://cdn.hymn.design/js/initHeadlineDown.js?v=1.0.0';
 import { initProjectSubnavScroll } from 'https://cdn.hymn.design/js/initProjectSubnavScroll.js?v=1.0.0';
 import { initNavLogoShrink } from 'https://cdn.hymn.design/js/initNavLogoShrink.js?v=1.0.0';
-
 // Media & content modules
 import { initLazyloadVimeo } from 'https://cdn.hymn.design/js/initLazyloadVimeo.js?v=1.0.0';
 import { initNextImg } from 'https://cdn.hymn.design/js/initNextImg.js?v=1.0.0';
 import { initNextHover } from 'https://cdn.hymn.design/js/initNextHover.js?v=1.0.0';
 import { initServices } from 'https://cdn.hymn.design/js/initServices.js?v=1.0.0';
-
 // Utility modules
 import { initLanguageSwitcher } from 'https://cdn.hymn.design/js/initLanguageSwitcher.js?v=1.0.0';
 import { initMailtoNewTab } from 'https://cdn.hymn.design/js/initMailtoNewTab.js?v=1.0.0';
