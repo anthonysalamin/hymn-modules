@@ -158,7 +158,7 @@ export function initFilter() {
     // -----------------------------
     // DOMContentLoaded
     // -----------------------------
-    document.addEventListener("DOMContentLoaded", () => {
+    // document.addEventListener("DOMContentLoaded", () => {
         const OPTIONS = {
             status: '[data-mixitup="status"]',
             control: '[data-mixitup="control"]',
@@ -176,5 +176,5 @@ export function initFilter() {
         initMixitup(OPTIONS);
 
         console.log(`Is the language english ? ${checkLanguage()}`);
-    });
+    // });
 }
