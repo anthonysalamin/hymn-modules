@@ -113,7 +113,7 @@ export function initFilter() {
         if (!containerEl) return;
 
         const mixer = mixitup(containerEl, {
-            multifilter: { enable: false },
+            // multifilter: { enable: false },
             controls: { toggleLogic: "and" },
             selectors: { target: opts.target, control: opts.filter },
             load: { filter: "all" },
