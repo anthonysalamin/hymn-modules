@@ -1,7 +1,9 @@
 /**
- * HYMN | initFilter v9
- * @build 16.12.24 @updated 23:56 PHT
+ * HYMN | initFilter
  * Adds interactive filtering for projects with grid view toggles, reset button, and MixItUp animations.
+ * @build 05.05.26
+ * @updated 23:04 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initFilter() {
@@ -158,23 +160,21 @@ export function initFilter() {
     // -----------------------------
     // DOMContentLoaded
     // -----------------------------
-    // document.addEventListener("DOMContentLoaded", () => {
-        const OPTIONS = {
-            status: '[data-mixitup="status"]',
-            control: '[data-mixitup="control"]',
-            container: '[data-mixitup="container"]',
-            filter: "[data-filter]",
-            target: '[data-mixitup="mix"]',
-            category: '[data-mixitup="category"]',
-            reset: '[data-mixitup="reset"]'
-        };
+    const OPTIONS = {
+        status: '[data-mixitup="status"]',
+        control: '[data-mixitup="control"]',
+        container: '[data-mixitup="container"]',
+        filter: "[data-filter]",
+        target: '[data-mixitup="mix"]',
+        category: '[data-mixitup="category"]',
+        reset: '[data-mixitup="reset"]'
+    };
 
-        injectResetbtn(OPTIONS);
-        setDataAttribute(OPTIONS);
-        categToClass(OPTIONS);
-        btnChecked(OPTIONS);
-        initMixitup(OPTIONS);
+    injectResetbtn(OPTIONS);
+    setDataAttribute(OPTIONS);
+    categToClass(OPTIONS);
+    btnChecked(OPTIONS);
+    initMixitup(OPTIONS);
 
-        console.log(`Is the language english ? ${checkLanguage()}`);
-    // });
+    console.log(`Is the language english ? ${checkLanguage()}`);
 }
