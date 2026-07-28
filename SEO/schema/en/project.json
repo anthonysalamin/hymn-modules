@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://hymn.design/en/projets/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+      "url": "https://hymn.design/en/projets/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+      "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+      "description": "{{wf {&quot;path&quot;:&quot;seo-metadata-description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://hymn.design/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://hymn.design/en/projets/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#project"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://hymn.design/en/projets/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#project",
+      "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+      "url": "https://hymn.design/en/projets/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+      "description": "{{wf {&quot;path&quot;:&quot;seo-metadata-description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+      "image": [
+        "{{wf {&quot;path&quot;:&quot;seo-opengraph-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}"
+      ],
+      "datePublished": "{{wf {&quot;path&quot;:&quot;created-on&quot;,&quot;type&quot;:&quot;Date&quot;\} }}",
+      "keywords": [
+        "Brand strategy",
+        "Brand identity",
+        "Visual identity design",
+        "Digital experiences",
+        "Motion design",
+        "Packaging design",
+        "Signage systems",
+        "Naming",
+        "Graphic design",
+        "UI/UX design",
+        "Brand image",
+        "Digital identity"
+      ],
+      "creator": {
+        "@id": "https://hymn.design/#organization"
+      },
+      "provider": {
+        "@id": "https://hymn.design/#organization"
+      },
+      "about": {
+        "@type": "Brand",
+        "name": "{{wf {&quot;path&quot;:&quot;client&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "{{wf {&quot;path&quot;:&quot;client&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+        }
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://hymn.design/#organization",
+      "name": "Hymn Design SA"
+    }
+  ]
+}

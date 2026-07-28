@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hymn.design/en/portfolio/#webpage",
+      "url": "https://hymn.design/en/portfolio",
+      "name": "Hymn Work – Branding and Design Projects",
+      "description": "Finally find the creative partner for your brand. Discover branding, strategy, packaging, and digital design projects by Hymn.",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://hymn.design/#organization"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Dr. Patricia Delarive",
+              "abstract": "Skin has a memory. So does a brand."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Chillon",
+              "abstract": "Contemporary Medieval"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "RTS Kids",
+              "abstract": "A world at a child's eye level"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "eeproperty / Shareman",
+              "abstract": "Technology with a Smile"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Jaquier Pointet",
+              "abstract": "The Territory, Forward"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Château de Luins",
+              "abstract": "Take our time, it's yours."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Dr. Gab's",
+              "abstract": "Beer with us"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Atelier Nova",
+              "abstract": "Drawing Tomorrow"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "RTS Couleur 3",
+              "abstract": "The Original of the Family"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "RTS Tataki",
+              "abstract": "Offbeat Pop Culture"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://hymn.design/#organization",
+      "name": "Hymn Design SA"
+    }
+  ]
+}

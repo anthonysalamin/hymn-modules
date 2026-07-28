@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://hymn.design/en/politique-de-confidentialite/#webpage",
+      "url": "https://hymn.design/en/politique-de-confidentialite",
+      "name": "Privacy Policy - Hymn Design SA",
+      "description": "Data protection is a matter of trust, and your trust is very important to us. Read the privacy statement of Hymn Design SA.",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://hymn.design/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://hymn.design/#organization",
+      "name": "Hymn Design SA"
+    }
+  ]
+}
