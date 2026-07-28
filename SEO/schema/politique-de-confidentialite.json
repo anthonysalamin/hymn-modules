@@ -1,0 +1,24 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://hymn.design/politique-de-confidentialite/#webpage",
+            "url": "https://hymn.design/politique-de-confidentialite",
+            "name": "Politique de confidentialité - Hymn Design SA",
+            "description": "La protection des données est une question de confiance, et votre confiance est très importante pour nous. Consultez la déclaration de confidentialité de Hymn Design SA.",
+            "inLanguage": [
+                "fr-CH",
+                "en"
+            ],
+            "about": {
+                "@id": "https://hymn.design/#organization"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://hymn.design/#organization",
+            "name": "Hymn Design SA"
+        }
+    ]
+}
