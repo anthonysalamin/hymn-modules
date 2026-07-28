@@ -23,7 +23,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "Dr. Patricia Delarive",
-              "abstract": "Skin has a memory. So does a brand."
+              "abstract": "La peau a une mémoire. Une marque aussi."
             }
           },
           {
@@ -32,7 +32,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "Chillon",
-              "abstract": "Contemporary Medieval"
+              "abstract": "Médiéval contemporain"
             }
           },
           {
@@ -41,7 +41,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "RTS Kids",
-              "abstract": "A world at a child's eye level"
+              "abstract": "Un monde à hauteur d'enfant"
             }
           },
           {
@@ -50,7 +50,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "eeproperty / Shareman",
-              "abstract": "Technology with a Smile"
+              "abstract": "La technologie avec le sourire"
             }
           },
           {
@@ -59,7 +59,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "Jaquier Pointet",
-              "abstract": "The Territory, Forward"
+              "abstract": "Le territoire, en avant"
             }
           },
           {
@@ -68,7 +68,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "Château de Luins",
-              "abstract": "Take our time, it's yours."
+              "abstract": "Prenons notre temps, il est à vous."
             }
           },
           {
@@ -77,7 +77,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "Dr. Gab's",
-              "abstract": "Beer with us"
+              "abstract": "Une bière avec nous"
             }
           },
           {
@@ -86,7 +86,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "Atelier Nova",
-              "abstract": "Drawing Tomorrow"
+              "abstract": "Dessiner demain"
             }
           },
           {
@@ -95,7 +95,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "RTS Couleur 3",
-              "abstract": "The Original of the Family"
+              "abstract": "L'original de la famille"
             }
           },
           {
@@ -104,7 +104,7 @@
             "item": {
               "@type": "CreativeWork",
               "name": "RTS Tataki",
-              "abstract": "Offbeat Pop Culture"
+              "abstract": "Culture pop décalée"
             }
           }
         ]

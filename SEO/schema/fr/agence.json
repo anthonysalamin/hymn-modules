@@ -5,8 +5,8 @@
       "@type": "AboutPage",
       "@id": "https://hymn.design/agence/#webpage",
       "url": "https://hymn.design/agence",
-      "name": "Hymn – Agence de Branding à Lausanne et Zürich",
-      "description": "Hymn is a branding agency based in Lausanne and Zürich, Switzerland. We create encompassing identities and uniting experiences. Our studio transforms your brand, enhancing it to reveal its truest self and its unifying force.",
+      "name": "Hymn - Agence de branding à Lausanne et Zurich",
+      "description": "Hymn est une agence de branding basée à Lausanne et Zurich, en Suisse. Nous créons des identités globales et des expériences qui rassemblent. Notre studio transforme votre marque pour révéler sa vérité et sa force d'union.",
       "inLanguage": [
         "fr-CH",
         "en"
@@ -39,7 +39,7 @@
         {
           "@type": "Person",
           "name": "Ruth Toechterle",
-          "jobTitle": "Strategic Advisor"
+          "jobTitle": "Conseil stratégique"
         }
       ],
       "makesOffer": [
@@ -47,35 +47,35 @@
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Brand Strategy"
+            "name": "Stratégie de marque"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Naming"
+            "name": "Création de nom"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Branding & Visual Identity"
+            "name": "Branding et identité visuelle"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Brand Communication"
+            "name": "Communication de marque"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Digital Experiences"
+            "name": "Expériences digitales"
           }
         },
         {
@@ -89,7 +89,7 @@
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Signage & Spatial Design"
+            "name": "Signalétique et design spatial"
           }
         }
       ]

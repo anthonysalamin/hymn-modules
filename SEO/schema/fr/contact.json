@@ -8,7 +8,7 @@
       "name": "Contactez Hymn – Agence de Branding",
       "description": "Tout premier instant de notre rencontre et pas le dernier. Contactez nos bureaux à Lausanne, Zürich et Bruxelles.",
       "inLanguage": [
-        "fr",
+        "fr-CH",
         "en"
       ],
       "about": {
@@ -48,13 +48,13 @@
       "contactPoint": [
         {
           "@type": "ContactPoint",
-          "contactType": "customer service",
+          "contactType": "service client",
           "email": "hello@hymn.design",
           "telephone": "+41213113005"
         },
         {
           "@type": "ContactPoint",
-          "contactType": "recruitment",
+          "contactType": "recrutement",
           "email": "joinus@hymn.design"
         }
       ]

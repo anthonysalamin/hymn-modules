@@ -26,7 +26,7 @@
       },
       "foundingLocation": {
         "@type": "Place",
-        "name": "Lausanne, Switzerland"
+        "name": "Lausanne, Suisse"
       },
       "address": [
         {
@@ -49,19 +49,19 @@
       "areaServed": [
         "CH",
         "EU",
-        "Worldwide"
+        "Monde entier"
       ],
       "knowsAbout": [
-        "Brand strategy",
-        "Brand identity",
-        "Visual identity design",
-        "Digital experiences",
+        "Stratégie de marque",
+        "Identité de marque",
+        "Design d'identité visuelle",
+        "Expériences digitales",
         "Motion design",
-        "Packaging design",
-        "Signage systems",
-        "Naming",
-        "Graphic design",
-        "UI/UX design"
+        "Design de packaging",
+        "Systèmes de signalétique",
+        "Création de nom",
+        "Design graphique",
+        "Design UI/UX"
       ],
       "sameAs": [
         "https://www.instagram.com/hymn.design/",
@@ -70,13 +70,13 @@
       "contactPoint": [
         {
           "@type": "ContactPoint",
-          "contactType": "customer service",
+          "contactType": "service client",
           "email": "hello@hymn.design",
           "telephone": "+41213113005"
         },
         {
           "@type": "ContactPoint",
-          "contactType": "recruitment",
+          "contactType": "recrutement",
           "email": "joinus@hymn.design"
         }
       ]
