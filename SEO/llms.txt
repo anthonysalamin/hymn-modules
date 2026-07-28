@@ -96,15 +96,6 @@ https://hymn.design/en/projets/giftmedia
 Clean and trusted brand identity for medical supplies.
 https://hymn.design/work/mediphy
 
-## Key Pages (English)
-
-- [Home](https://hymn.design/en/): Agency overview and featured projects
-- [Agency](https://hymn.design/en/agence): About Hymn, our philosophy, team, and process
-- [Portfolio](https://hymn.design/en/portfolio): All branding and design projects
-- [Contact](https://hymn.design/en/contact): Get in touch for branding projects
-- [Join Us](https://hymn.design/en/join-us): Career opportunities at Hymn
-- [Privacy Policy](https://www.hymn.design/politique-de-confidentialite): Privacy policy
-
 ## Key Pages (French)
 
 - [Accueil](https://hymn.design/): Vue d'ensemble de l'agence
@@ -113,6 +104,15 @@ https://hymn.design/work/mediphy
 - [Contact](https://hymn.design/contact): Nous contacter
 - [Nous rejoindre](https://hymn.design/join-us): Opportunités de carrière chez Hymn
 - [Politique de confidentialité](https://www.hymn.design/politique-de-confidentialite): Politique de confidentialité
+
+## Key Pages (English)
+
+- [Home](https://hymn.design/en/): Agency overview and featured projects
+- [Agency](https://hymn.design/en/agence): About Hymn, our philosophy, team, and process
+- [Portfolio](https://hymn.design/en/portfolio): All branding and design projects
+- [Contact](https://hymn.design/en/contact): Get in touch for branding projects
+- [Join Us](https://hymn.design/en/join-us): Career opportunities at Hymn
+- [Privacy Policy](https://www.hymn.design/politique-de-confidentialite): Privacy policy
 
 ## Contact Information
 
