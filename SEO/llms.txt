@@ -74,5 +74,10 @@ Hymn Design SA was founded in Lausanne, Switzerland. We work with Swiss and inte
 
 ## Languages
 
-The website is available in English (primary) and French.
+The website is available in French (primary) and English.
 Hymn is based in French-speaking Switzerland (Suisse romande) and serves both local and international clients.
+
+## Credits
+
+- **Web Design & Development**: TONYTONY Sàrl — https://tonytony.ch
+- **Platform**: Webflow
